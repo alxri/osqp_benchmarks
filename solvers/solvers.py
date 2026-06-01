@@ -1,8 +1,26 @@
-from solvers.ecos import ECOSSolver
-from solvers.gurobi import GUROBISolver
-from solvers.mosek import MOSEKSolver
 from solvers.osqp import OSQPSolver
-from solvers.qpoases import qpOASESSolver
+
+# Optional solver backends: keep imports lazy/fault-tolerant so
+# OSQP-only runs do not require proprietary/extra dependencies.
+try:
+       from solvers.ecos import ECOSSolver
+except Exception:
+       ECOSSolver = None
+
+try:
+       from solvers.gurobi import GUROBISolver
+except Exception:
+       GUROBISolver = None
+
+try:
+       from solvers.mosek import MOSEKSolver
+except Exception:
+       MOSEKSolver = None
+
+try:
+       from solvers.qpoases import qpOASESSolver
+except Exception:
+       qpOASESSolver = None
 
 ECOS = 'ECOS'
 ECOS_high = ECOS + "_high"
@@ -12,6 +30,8 @@ OSQP = 'OSQP'
 OSQP_high = OSQP + '_high'
 OSQP_polish = OSQP + '_polish'
 OSQP_polish_high = OSQP_polish + '_high'
+OSQP_builtin_direct = 'OSQP_builtin_direct'
+OSQP_mkl_indirect = 'OSQP_mkl_indirect'
 MOSEK = 'MOSEK'
 MOSEK_high = MOSEK + "_high"
 qpOASES = 'qpOASES'
@@ -19,17 +39,26 @@ qpOASES = 'qpOASES'
 # solvers = [ECOSSolver, GUROBISolver, MOSEKSolver, OSQPSolver]
 # SOLVER_MAP = {solver.name(): solver for solver in solvers}
 
-SOLVER_MAP = {OSQP: OSQPSolver,
-              OSQP_high: OSQPSolver,
-              OSQP_polish: OSQPSolver,
-              OSQP_polish_high: OSQPSolver,
-              GUROBI: GUROBISolver,
-              GUROBI_high: GUROBISolver,
-              MOSEK: MOSEKSolver,
-              MOSEK_high: MOSEKSolver,
-              ECOS: ECOSSolver,
-              ECOS_high: ECOSSolver,
-              qpOASES: qpOASESSolver}
+SOLVER_MAP = {
+       OSQP: OSQPSolver,
+       OSQP_high: OSQPSolver,
+       OSQP_polish: OSQPSolver,
+       OSQP_polish_high: OSQPSolver,
+       OSQP_builtin_direct: OSQPSolver,
+       OSQP_mkl_indirect: OSQPSolver,
+}
+
+if GUROBISolver is not None:
+       SOLVER_MAP[GUROBI] = GUROBISolver
+       SOLVER_MAP[GUROBI_high] = GUROBISolver
+if MOSEKSolver is not None:
+       SOLVER_MAP[MOSEK] = MOSEKSolver
+       SOLVER_MAP[MOSEK_high] = MOSEKSolver
+if ECOSSolver is not None:
+       SOLVER_MAP[ECOS] = ECOSSolver
+       SOLVER_MAP[ECOS_high] = ECOSSolver
+if qpOASESSolver is not None:
+       SOLVER_MAP[qpOASES] = qpOASESSolver
 
 time_limit = 1000. # Seconds
 eps_low = 1e-03
@@ -65,6 +94,28 @@ settings = {
                        'eps_prim_inf': 1e-15,  # Disable infeas check
                        'eps_dual_inf': 1e-15
     },
+       OSQP_builtin_direct: {'eps_abs': eps_low,
+                                            'eps_rel': eps_low,
+                                            'polish': False,
+                                            'max_iter': 4000,
+                                            'eps_prim_inf': 1e-15,  # Disable infeas check
+                                            'eps_dual_inf': 1e-15,
+                                            'algebra': 'builtin',
+                                            'solver_type': 'direct'
+                                            
+       },
+       OSQP_mkl_indirect: {'eps_abs': eps_low,
+                                          'eps_rel': eps_low,
+                                          'polish': False,
+                                          'max_iter': 2000,
+                                          'eps_prim_inf': 1e-15,  # Disable infeas check
+                                          'eps_dual_inf': 1e-15,
+                                          'algebra': 'mkl',
+                                          'solver_type': 'indirect',
+                                          'alpha': 1.8,
+                                          'sigma': 1e-2,
+                                          'cg_max_iter': 5
+       },
     GUROBI: {'TimeLimit': time_limit,
              'FeasibilityTol': eps_low,
              'OptimalityTol': eps_low,

@@ -2,38 +2,45 @@ import numpy as np
 import scipy.sparse as spa
 import cvxpy
 
+from utils.general import random_sparse_nnz_per_col
+
 
 class RandomQPExample(object):
     '''
     Random QP example
     '''
-    def __init__(self, n, seed=1):
+    def __init__(self, n, seed=1, min_nnz_per_col=1, max_nnz_per_col=5,
+                 build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
         # Set random seed
         np.random.seed(seed)
 
-        m = int(n * 10)
+        # m = int(n * 10)
+        m = n
 
         # Generate problem data
         self.n = int(n)
         self.m = m
-        P = spa.random(n, n, density=0.15,
-                       data_rvs=np.random.randn,
-                       format='csc')
+        P = random_sparse_nnz_per_col(n, n, min_nnz_per_col, max_nnz_per_col,
+                          data_rvs=np.random.randn,
+                          format='csc')
         self.P = P.dot(P.T).tocsc() + 1e-02 * spa.eye(n)
         self.q = np.random.randn(n)
-        self.A = spa.random(m, n, density=0.15,
-                            data_rvs=np.random.randn,
-                            format='csc')
+        self.A = random_sparse_nnz_per_col(m, n, min_nnz_per_col, max_nnz_per_col,
+                           data_rvs=np.random.randn,
+                           format='csc')
         v = np.random.randn(n)   # Fictitious solution
         delta = np.random.rand(m)  # To get inequality
         self.u = self.A@v + delta
         self.l = - np.inf * np.ones(m)  # self.u - np.random.rand(m)
 
         self.qp_problem = self._generate_qp_problem()
-        self.cvxpy_problem = self._generate_cvxpy_problem()
+        if build_cvxpy:
+            self.cvxpy_problem = self._generate_cvxpy_problem()
+        else:
+            self.cvxpy_problem = None
 
     @staticmethod
     def name():

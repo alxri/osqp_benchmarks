@@ -8,7 +8,8 @@ class ControlExample(object):
     '''
     Control QP example
     '''
-    def __init__(self, n, seed=1):
+    def __init__(self, n, seed=1, min_nnz_per_col=1, max_nnz_per_col=5,
+                 build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
@@ -72,8 +73,13 @@ class ControlExample(object):
         self.T = 10
 
         self.qp_problem = self._generate_qp_problem()
-        self.cvxpy_problem, self.cvxpy_variables, self.cvxpy_param = \
-            self._generate_cvxpy_problem()
+        if build_cvxpy:
+            self.cvxpy_problem, self.cvxpy_variables, self.cvxpy_param = \
+                self._generate_cvxpy_problem()
+        else:
+            self.cvxpy_problem = None
+            self.cvxpy_variables = None
+            self.cvxpy_param = None
 
     @staticmethod
     def name():

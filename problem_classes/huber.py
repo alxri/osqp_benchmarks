@@ -2,12 +2,15 @@ import numpy as np
 import scipy.sparse as spa
 import cvxpy
 
+from utils.general import random_sparse_nnz_per_col
+
 
 class HuberExample(object):
     '''
     Huber QP example
     '''
-    def __init__(self, n, seed=1):
+    def __init__(self, n, seed=1, min_nnz_per_col=1, max_nnz_per_col=5,
+                 build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
@@ -17,8 +20,8 @@ class HuberExample(object):
         self.n = int(n)               # Number of features
         self.m = int(self.n * 100)    # Number of data-points
 
-        self.Ad = spa.random(self.m, self.n, density=0.15,
-                             data_rvs=np.random.randn)
+        self.Ad = random_sparse_nnz_per_col(self.m, self.n, min_nnz_per_col, max_nnz_per_col,
+                            data_rvs=np.random.randn)
         self.x_true = np.random.randn(n) / np.sqrt(n)
         ind95 = (np.random.rand(self.m) < 0.95).astype(float)
         self.bd = self.Ad.dot(self.x_true) + \
@@ -26,8 +29,12 @@ class HuberExample(object):
             + np.multiply(10.*np.random.rand(self.m), 1. - ind95)
 
         self.qp_problem = self._generate_qp_problem()
-        self.cvxpy_problem, self.cvxpy_variables = \
-            self._generate_cvxpy_problem()
+        if build_cvxpy:
+            self.cvxpy_problem, self.cvxpy_variables = \
+                self._generate_cvxpy_problem()
+        else:
+            self.cvxpy_problem = None
+            self.cvxpy_variables = None
 
     @staticmethod
     def name():

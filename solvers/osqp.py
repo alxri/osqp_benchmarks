@@ -1,4 +1,5 @@
 import osqp
+import time
 from . import statuses as s
 from .results import Results
 from utils.general import is_qp_solution_optimal
@@ -36,15 +37,40 @@ class OSQPSolver(object):
         problem = example.qp_problem
         settings = self._settings.copy()
         high_accuracy = settings.pop('high_accuracy', None)
+        algebra = settings.pop('algebra', None)
+        cg_max_iter = settings.pop('cg_max_iter', None)
+        debug = settings.pop('debug', False)
+
+        if cg_max_iter is not None:
+            settings['cg_max_iter'] = cg_max_iter
+
+        # osqp-mkl registers the "mkl" algebra at import time.
+        if algebra == 'mkl':
+            try:
+                import osqp_mkl  # noqa: F401
+            except Exception as exc:
+                raise RuntimeError(
+                    'Failed to load osqp_mkl runtime. Ensure libmkl_rt.so.2 is discoverable via LD_LIBRARY_PATH.'
+                ) from exc
 
         # Setup OSQP
-        m = osqp.OSQP()
+        m = osqp.OSQP(algebra=algebra) if algebra is not None else osqp.OSQP()
+        if debug:
+            print(f'   [debug] OSQP setup start: algebra={algebra}, solver_type={settings.get("solver_type")}, eps_abs={settings.get("eps_abs")}, eps_rel={settings.get("eps_rel")}, cg_max_iter={settings.get("cg_max_iter")}, alpha={settings.get("alpha")}, sigma={settings.get("sigma")}')
+        setup_start = time.perf_counter()
         m.setup(problem['P'], problem['q'], problem['A'], problem['l'],
                 problem['u'],
                 **settings)
+        if debug:
+            print(f'   [debug] OSQP setup done in {time.perf_counter() - setup_start:.3f}s')
 
         # Solve
+        if debug:
+            print('   [debug] OSQP solve start')
+        solve_start = time.perf_counter()
         results = m.solve()
+        if debug:
+            print(f'   [debug] OSQP solve done in {time.perf_counter() - solve_start:.3f}s')
         status = self.STATUS_MAP.get(results.info.status_val, s.SOLVER_ERROR)
 
         if status in s.SOLUTION_PRESENT:

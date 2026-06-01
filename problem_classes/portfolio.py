@@ -2,12 +2,15 @@ import numpy as np
 import scipy.sparse as spa
 import cvxpy
 
+from utils.general import random_sparse_nnz_per_col
+
 
 class PortfolioExample(object):
     '''
     Portfolio QP example
     '''
-    def __init__(self, k, seed=1, n=None):
+    def __init__(self, k, seed=1, n=None, min_nnz_per_col=1,
+                 max_nnz_per_col=5, build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
@@ -21,16 +24,21 @@ class PortfolioExample(object):
             self.n = int(n)
 
         # Generate data
-        self.F = spa.random(self.n, self.k, density=0.5,
-                            data_rvs=np.random.randn, format='csc')
+        self.F = random_sparse_nnz_per_col(self.n, self.k, min_nnz_per_col, max_nnz_per_col,
+                            data_rvs=np.random.randn,
+                            format='csc')
         self.D = spa.diags(np.random.rand(self.n) *
                            np.sqrt(self.k), format='csc')
         self.mu = np.random.randn(self.n)
         self.gamma = 1.0
 
         self.qp_problem = self._generate_qp_problem()
-        self.cvxpy_problem, self.cvxpy_param = \
-            self._generate_cvxpy_problem()
+        if build_cvxpy:
+            self.cvxpy_problem, self.cvxpy_param = \
+                self._generate_cvxpy_problem()
+        else:
+            self.cvxpy_problem = None
+            self.cvxpy_param = None
 
     @staticmethod
     def name():

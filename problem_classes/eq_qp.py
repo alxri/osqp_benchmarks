@@ -2,12 +2,15 @@ import numpy as np
 import scipy.sparse as spa
 import cvxpy
 
+from utils.general import random_sparse_nnz_per_col
+
 
 class EqQPExample(object):
     '''
     Equality constrained QP example
     '''
-    def __init__(self, n, seed=1):
+    def __init__(self, n, seed=1, min_nnz_per_col=1, max_nnz_per_col=5,
+                 build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
@@ -19,20 +22,23 @@ class EqQPExample(object):
         # Generate problem data
         self.n = int(n)
         self.m = m
-        P = spa.random(n, n, density=0.15,
-                       data_rvs=np.random.randn,
-                       format='csc')
+        P = random_sparse_nnz_per_col(n, n, min_nnz_per_col, max_nnz_per_col,
+                          data_rvs=np.random.randn,
+                          format='csc')
         self.P = P.dot(P.T).tocsc() + 1e-02 * spa.eye(n)
         self.q = np.random.randn(n)
-        self.A = spa.random(m, n, density=0.15,
-                            data_rvs=np.random.randn,
-                            format='csc')
+        self.A = random_sparse_nnz_per_col(m, n, min_nnz_per_col, max_nnz_per_col,
+                           data_rvs=np.random.randn,
+                           format='csc')
         x_sol = np.random.randn(n)  # Create fictitious solution
         self.l = self.A@x_sol
         self.u = np.copy(self.l)
 
         self.qp_problem = self._generate_qp_problem()
-        self.cvxpy_problem = self._generate_cvxpy_problem()
+        if build_cvxpy:
+            self.cvxpy_problem = self._generate_cvxpy_problem()
+        else:
+            self.cvxpy_problem = None
 
     @staticmethod
     def name():

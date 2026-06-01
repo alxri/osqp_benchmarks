@@ -1,5 +1,6 @@
 import numpy as np
 import numpy.linalg as la
+import scipy.sparse as spa
 import solvers.solvers as s
 import errno
 import os
@@ -49,6 +50,55 @@ def make_sure_path_exists(path):
         # Catch exception if directory created in between
         if exception.errno != errno.EEXIST:
             raise
+
+
+def random_sparse_nnz_per_col(m, n, min_nnz_per_col=1, max_nnz_per_col=5,
+                              data_rvs=np.random.randn, format='csc'):
+    """
+    Generate a sparse random matrix by sampling a random number of nonzeros per
+    column instead of using a global density.
+    """
+    if m < 0 or n < 0:
+        raise ValueError('matrix dimensions must be non-negative')
+    if m == 0 or n == 0:
+        return spa.csc_matrix((m, n))
+
+    min_nnz_per_col = int(min_nnz_per_col)
+    max_nnz_per_col = int(max_nnz_per_col)
+    if min_nnz_per_col < 0:
+        raise ValueError('min_nnz_per_col must be non-negative')
+    if max_nnz_per_col < min_nnz_per_col:
+        raise ValueError('max_nnz_per_col must be >= min_nnz_per_col')
+
+    max_nnz_per_col = min(max_nnz_per_col, m)
+    min_nnz_per_col = min(min_nnz_per_col, max_nnz_per_col)
+
+    data = []
+    indices = []
+    indptr = [0]
+
+    for _ in range(n):
+        if max_nnz_per_col == 0:
+            nnz_col = 0
+        else:
+            nnz_col = np.random.randint(min_nnz_per_col, max_nnz_per_col + 1)
+
+        if nnz_col > 0:
+            row_idx = np.random.choice(m, size=nnz_col, replace=False)
+            row_idx.sort()
+            indices.extend(row_idx.tolist())
+
+            values = np.asarray(data_rvs(nnz_col))
+            if values.shape == ():
+                values = np.full(nnz_col, values)
+            data.extend(values.tolist())
+
+        indptr.append(len(indices))
+
+    matrix = spa.csc_matrix((np.asarray(data), np.asarray(indices), np.asarray(indptr)), shape=(m, n))
+    if format == 'csc':
+        return matrix
+    return matrix.asformat(format)
 
 
 def gen_int_log_space(min_val, limit, n):

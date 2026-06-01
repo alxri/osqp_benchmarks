@@ -2,12 +2,15 @@ import numpy as np
 import scipy.sparse as spa
 import cvxpy
 
+from utils.general import random_sparse_nnz_per_col
+
 
 class LassoExample(object):
     '''
     Lasso QP example
     '''
-    def __init__(self, n, seed=1):
+    def __init__(self, n, seed=1, min_nnz_per_col=1, max_nnz_per_col=5,
+                 build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
@@ -17,8 +20,8 @@ class LassoExample(object):
         self.n = int(n)               # Number of features
         self.m = int(self.n * 100)    # Number of data-points
 
-        self.Ad = spa.random(self.m, self.n, density=0.15,
-                             data_rvs=np.random.randn)
+        self.Ad = random_sparse_nnz_per_col(self.m, self.n, min_nnz_per_col, max_nnz_per_col,
+                            data_rvs=np.random.randn)
         self.x_true = np.multiply((np.random.rand(self.n) >
                                    0.5).astype(float),
                                   np.random.randn(self.n)) / np.sqrt(self.n)
@@ -27,8 +30,13 @@ class LassoExample(object):
         self.lambda_param = (1./5.) * self.lambda_max
 
         self.qp_problem = self._generate_qp_problem()
-        self.cvxpy_problem, self.cvxpy_variables, self.cvxpy_param = \
-            self._generate_cvxpy_problem()
+        if build_cvxpy:
+            self.cvxpy_problem, self.cvxpy_variables, self.cvxpy_param = \
+                self._generate_cvxpy_problem()
+        else:
+            self.cvxpy_problem = None
+            self.cvxpy_variables = None
+            self.cvxpy_param = None
 
     @staticmethod
     def name():

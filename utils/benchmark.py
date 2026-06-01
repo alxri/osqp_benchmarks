@@ -71,8 +71,8 @@ def compute_performance_profiles(solvers, problems_type):
         # Get total number of problems
         n_problems = len(df)
 
-        t[solver] = df['run_time'].values
-        status[solver] = df['status'].values
+        t[solver] = df['run_time'].to_numpy(copy=True)
+        status[solver] = df['status'].to_numpy(copy=True)
 
         # Set maximum time for solvers that did not succeed
         for idx in range(n_problems):
@@ -155,8 +155,8 @@ def compute_shifted_geometric_means(solvers, problems_type):
         n_problems = len(df)
 
         # NB. Normalize to avoid overflow. They get normalized back anyway.
-        t[solver] = df['run_time'].values
-        status[solver] = df['status'].values
+        t[solver] = df['run_time'].to_numpy(copy=True)
+        status[solver] = df['status'].to_numpy(copy=True)
 
         # Set maximum time for solvers that did not succeed
         for idx in range(n_problems):
@@ -367,8 +367,9 @@ def compute_stats_info(solvers, benchmark_type,
     # Compute performance profiles
     compute_shifted_geometric_means(solvers, benchmark_type)
 
-    # Compute polish statistics
-    if any(s.startswith('OSQP') for s in solvers):
+    # Compute polish statistics only for benchmarks that include the
+    # dedicated OSQP / OSQP_polish result files.
+    if 'OSQP' in solvers:
         compute_polish_statistics(benchmark_type, high_accuracy=high_accuracy)
         compute_ratio_setup_solve(benchmark_type, high_accuracy=high_accuracy)
         compute_rho_updates(benchmark_type, high_accuracy=high_accuracy)

@@ -33,13 +33,21 @@ class Example(object):
                  solvers,
                  settings,
                  output_folder,
-                 n_instances=10):
+                 n_instances=10,
+                 debug=False,
+                 min_nnz_per_col=1,
+                 max_nnz_per_col=5,
+                 build_cvxpy=True):
         self.name = name
         self.dims = dims
         self.n_instances = n_instances
         self.solvers = solvers
         self.settings = settings
         self.output_folder = output_folder
+        self.debug = debug
+        self.min_nnz_per_col = min_nnz_per_col
+        self.max_nnz_per_col = max_nnz_per_col
+        self.build_cvxpy = build_cvxpy
 
     def solve(self, parallel=True):
         '''
@@ -147,9 +155,19 @@ class Example(object):
 
         '''
 
+        if self.debug:
+            print(f'   [debug] building {self.name} instance (n={dimension}, seed={instance_number})')
+
         # Create example instance
         example_instance = EXAMPLES_MAP[self.name](dimension,
-                                                   instance_number)
+                               instance_number,
+                               min_nnz_per_col=self.min_nnz_per_col,
+                               max_nnz_per_col=self.max_nnz_per_col,
+                               build_cvxpy=self.build_cvxpy)
+
+        if self.debug:
+            qp = example_instance.qp_problem
+            print(f'   [debug] built QP data: P.nnz={qp["P"].nnz}, A.nnz={qp["A"].nnz}, m={qp["m"]}, n={qp["n"]}')
 
         print(" - Solving %s with n = %i, instance = %i with solver %s" %
               (self.name, dimension, instance_number, solver))
