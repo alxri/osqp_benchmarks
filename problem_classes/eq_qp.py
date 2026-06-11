@@ -9,8 +9,7 @@ class EqQPExample(object):
     '''
     Equality constrained QP example
     '''
-    def __init__(self, n, seed=1, min_nnz_per_col=1, max_nnz_per_col=5,
-                 build_cvxpy=True):
+    def __init__(self, n, seed=1, nnz_per_col=None, build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
@@ -19,15 +18,22 @@ class EqQPExample(object):
 
         m = int(n/2)
 
+        if nnz_per_col is None:
+            nnz_per_col = 5
+
         # Generate problem data
         self.n = int(n)
         self.m = m
-        P = random_sparse_nnz_per_col(n, n, min_nnz_per_col, max_nnz_per_col,
+
+        nnz_P = min(nnz_per_col, self.n)
+        nnz_A = min(nnz_per_col, self.m)
+
+        P = random_sparse_nnz_per_col(n, n, nnz_P,
                           data_rvs=np.random.randn,
                           format='csc')
         self.P = P.dot(P.T).tocsc() + 1e-02 * spa.eye(n)
         self.q = np.random.randn(n)
-        self.A = random_sparse_nnz_per_col(m, n, min_nnz_per_col, max_nnz_per_col,
+        self.A = random_sparse_nnz_per_col(m, n, nnz_A,
                            data_rvs=np.random.randn,
                            format='csc')
         x_sol = np.random.randn(n)  # Create fictitious solution

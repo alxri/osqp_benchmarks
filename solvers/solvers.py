@@ -1,4 +1,5 @@
 from solvers.osqp import OSQPSolver
+from solvers.qpfpga import QPFPGA_Solver
 
 # Optional solver backends: keep imports lazy/fault-tolerant so
 # OSQP-only runs do not require proprietary/extra dependencies.
@@ -32,6 +33,7 @@ OSQP_polish = OSQP + '_polish'
 OSQP_polish_high = OSQP_polish + '_high'
 OSQP_builtin_direct = 'OSQP_builtin_direct'
 OSQP_mkl_indirect = 'OSQP_mkl_indirect'
+QPFPGA = 'QPFPGA'
 MOSEK = 'MOSEK'
 MOSEK_high = MOSEK + "_high"
 qpOASES = 'qpOASES'
@@ -46,6 +48,7 @@ SOLVER_MAP = {
        OSQP_polish_high: OSQPSolver,
        OSQP_builtin_direct: OSQPSolver,
        OSQP_mkl_indirect: OSQPSolver,
+       QPFPGA: QPFPGA_Solver,
 }
 
 if GUROBISolver is not None:
@@ -96,6 +99,7 @@ settings = {
     },
        OSQP_builtin_direct: {'eps_abs': eps_low,
                                             'eps_rel': eps_low,
+                                            'warm_start': False,
                                             'polish': False,
                                             'max_iter': 4000,
                                             'eps_prim_inf': 1e-15,  # Disable infeas check
@@ -106,8 +110,9 @@ settings = {
        },
        OSQP_mkl_indirect: {'eps_abs': eps_low,
                                           'eps_rel': eps_low,
+                                          'warm_start': False,
                                           'polish': False,
-                                          'max_iter': 2000,
+                                          'max_iter': 40000,
                                           'eps_prim_inf': 1e-15,  # Disable infeas check
                                           'eps_dual_inf': 1e-15,
                                           'algebra': 'mkl',
@@ -115,6 +120,14 @@ settings = {
                                           'alpha': 1.8,
                                           'sigma': 1e-2,
                                           'cg_max_iter': 5
+       },
+       QPFPGA: {'eps_abs': eps_low,
+                'eps_rel': eps_low,
+                'admm_max_iter': 40000,
+                'alpha': 1.8,
+                'sigma': 1e-2,
+                'pcg_max_iter': 5,
+                'measure_energy': True
        },
     GUROBI: {'TimeLimit': time_limit,
              'FeasibilityTol': eps_low,

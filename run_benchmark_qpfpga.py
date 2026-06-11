@@ -1,15 +1,7 @@
-'''
-Run benchmark problems with OSQP only by dynamically discovering 
-and loading pre-generated files from the dataset directory.
-'''
-
 import os
 import sys
 
 # --- DYNAMIC LD_LIBRARY_PATH INJECTION ---
-# Automatically find the local .venv_bench/lib folder using relative paths.
-# If it's missing from LD_LIBRARY_PATH, inject it and restart the process
-# so the Linux dynamic linker (ld.so) correctly binds the Intel MKL libraries.
 script_dir = os.path.dirname(os.path.abspath(__file__))
 venv_lib_dir = os.path.join(script_dir, '.venv_bench', 'lib')
 current_ld_path = os.environ.get('LD_LIBRARY_PATH', '')
@@ -20,6 +12,19 @@ if venv_lib_dir not in current_ld_path:
     # Re-execute the current Python script with the updated environment
     os.execv(sys.executable, [sys.executable] + sys.argv)
 
+# 1. FAIL-SAFE: Ensure the library path is set before importing qpfpga
+if "QPFPGA_LIBRARY" not in os.environ:
+    # Look for the .so file in the expected build directory
+    expected_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "cpp", "build", "libqpfpga.so"))
+    if os.path.exists(expected_path):
+        os.environ["QPFPGA_LIBRARY"] = expected_path
+    else:
+        print(f"ERROR: Could not find libqpfpga.so at {expected_path}")
+        print("Please compile the backend or set QPFPGA_LIBRARY manually.")
+        sys.exit(1)
+
+import qpfpga  # This triggers the registration of cp.QPFPGA
+
 import re
 import argparse
 import glob
@@ -28,31 +33,20 @@ from benchmark_problems.example import Example
 import solvers.solvers as s
 from utils.benchmark import compute_stats_info
 
-parser = argparse.ArgumentParser(description='Dynamic Dataset Benchmark Runner (OSQP only)')
-parser.add_argument('--high_accuracy', help='Test with high accuracy', default=False,
-                    action='store_true')
-parser.add_argument('--verbose', help='Verbose solvers', default=False,
-                    action='store_true')
-parser.add_argument('--parallel', help='Parallel solution', default=False,
-                    action='store_true')
-parser.add_argument('--no-cvxpy', help='Skip CVXPY model construction', default=False,
-                    action='store_true')
-parser.add_argument('--solver', help='Solver selection', default='both',
-                    choices=['both', 'direct', 'indirect'])
-parser.add_argument('--debug', help='Print benchmark step timings', default=False,
-                    action='store_true')
-parser.add_argument('--exclude-problems', nargs='*', default=[],
-                    choices=['Random QP', 'Eq QP', 'Portfolio', 'Lasso', 'SVM', 'Huber', 'Control'],
-                    help='Problem types to skip')
-parser.add_argument('--dataset-dir', type=str, default='dataset',
-                    help='Path to the pre-generated dataset directory')
+parser = argparse.ArgumentParser(description='Dynamic Dataset Benchmark Runner (FPGA only)')
+parser.add_argument('--high_accuracy', help='Test with high accuracy', default=False, action='store_true')
+parser.add_argument('--verbose', help='Verbose solvers', default=False, action='store_true')
+parser.add_argument('--parallel', help='Parallel solution', default=False, action='store_true')
+parser.add_argument('--no-cvxpy', help='Skip CVXPY model construction', default=False, action='store_true')
+parser.add_argument('--debug', help='Print benchmark step timings', default=False, action='store_true')
+parser.add_argument('--exclude-problems', nargs='*', default=[], choices=['Random QP', 'Eq QP', 'Portfolio', 'Lasso', 'SVM', 'Huber', 'Control'], help='Problem types to skip')
+parser.add_argument('--dataset-dir', type=str, default='dataset', help='Path to the pre-generated dataset directory')
 
 args = parser.parse_args()
 high_accuracy = args.high_accuracy
 verbose = args.verbose
 parallel = args.parallel
 build_cvxpy = not args.no_cvxpy
-solver_mode = args.solver
 debug = args.debug
 exclude_problems = set(args.exclude_problems)
 dataset_dir = args.dataset_dir
@@ -63,19 +57,13 @@ print('high_accuracy', high_accuracy)
 print('verbose', verbose)
 print('parallel', parallel)
 print('build_cvxpy', build_cvxpy)
-print('solver', solver_mode)
 print('debug', debug)
 print('exclude_problems', sorted(exclude_problems))
 print('dataset_dir', dataset_dir)
 
-if solver_mode == 'both':
-    solvers = [s.OSQP_builtin_direct, s.OSQP_mkl_indirect]
-elif solver_mode == 'direct':
-    solvers = [s.OSQP_builtin_direct]
-else:
-    solvers = [s.OSQP_mkl_indirect]
+solvers = [s.QPFPGA]
 
-OUTPUT_FOLDER = 'benchmark_problems_osqp_only'
+OUTPUT_FOLDER = 'benchmark_problems_fpga_only'
 
 if high_accuracy:
     for key in solvers:
@@ -84,7 +72,8 @@ if high_accuracy:
         s.settings[key]['high_accuracy'] = True
 
 for key in solvers:
-    s.settings[key]['max_iter'] = 40000
+    s.settings[key]['admm_max_iter'] = 40000
+    s.settings[key]['measure_energy'] = True
 
 if verbose:
     for key in solvers:

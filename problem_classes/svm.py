@@ -9,8 +9,7 @@ class SVMExample(object):
     '''
     SVM QP example
     '''
-    def __init__(self, n, seed=1, min_nnz_per_col=1, max_nnz_per_col=5,
-                 build_cvxpy=True):
+    def __init__(self, n, seed=1, nnz_per_col=None, build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
@@ -20,13 +19,16 @@ class SVMExample(object):
         self.n = int(n)               # Number of features
         self.m = int(self.n * 100)    # Number of data-points
 
+        if nnz_per_col is None:
+            nnz_per_col = 5
+
         # Generate data
         self.N = int(self.m / 2)
         self.gamma = 1.0
         self.b_svm = np.append(np.ones(self.N), -np.ones(self.N))
-        A_upp = random_sparse_nnz_per_col(self.N, self.n, min_nnz_per_col, max_nnz_per_col,
+        A_upp = random_sparse_nnz_per_col(self.N, self.n, nnz_per_col,
                           data_rvs=np.random.randn)
-        A_low = random_sparse_nnz_per_col(self.N, self.n, min_nnz_per_col, max_nnz_per_col,
+        A_low = random_sparse_nnz_per_col(self.N, self.n, nnz_per_col,
                           data_rvs=np.random.randn)
         self.A_svm = spa.vstack([
             A_upp / np.sqrt(self.n) + (A_upp != 0.).astype(float) / self.n,

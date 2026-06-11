@@ -9,8 +9,7 @@ class HuberExample(object):
     '''
     Huber QP example
     '''
-    def __init__(self, n, seed=1, min_nnz_per_col=1, max_nnz_per_col=5,
-                 build_cvxpy=True):
+    def __init__(self, n, seed=1, nnz_per_col=None, build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
@@ -20,7 +19,10 @@ class HuberExample(object):
         self.n = int(n)               # Number of features
         self.m = int(self.n * 100)    # Number of data-points
 
-        self.Ad = random_sparse_nnz_per_col(self.m, self.n, min_nnz_per_col, max_nnz_per_col,
+        if nnz_per_col is None:
+            nnz_per_col = 5
+
+        self.Ad = random_sparse_nnz_per_col(self.m, self.n, nnz_per_col,
                             data_rvs=np.random.randn)
         self.x_true = np.random.randn(n) / np.sqrt(n)
         ind95 = (np.random.rand(self.m) < 0.95).astype(float)

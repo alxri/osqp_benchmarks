@@ -1,0 +1,839 @@
+path,problem,density,original_dim,n,m,nnzA,nnzP
+dataset/control/density_1/n111_inst0.json,Control,1,111,1771,2992,11322,1771
+dataset/control/density_1/n1213_inst0.json,Control,1,1213,19403,32746,534866,19403
+dataset/control/density_1/n125_inst0.json,Control,1,125,1995,3370,9990,1995
+dataset/control/density_1/n141_inst0.json,Control,1,141,2251,3802,9902,2251
+dataset/control/density_1/n159_inst0.json,Control,1,159,2539,4288,16498,2539
+dataset/control/density_1/n179_inst0.json,Control,1,179,2859,4828,22528,2859
+dataset/control/density_1/n202_inst0.json,Control,1,202,3232,5454,28964,3232
+dataset/control/density_1/n228_inst0.json,Control,1,228,3648,6156,25586,3648
+dataset/control/density_1/n257_inst0.json,Control,1,257,4107,6934,40204,4107
+dataset/control/density_1/n289_inst0.json,Control,1,289,4619,7798,30728,4619
+dataset/control/density_1/n326_inst0.json,Control,1,326,5216,8802,46322,5216
+dataset/control/density_1/n367_inst0.json,Control,1,367,5867,9904,63694,5867
+dataset/control/density_1/n38_inst0.json,Control,1,38,608,1026,3106,608
+dataset/control/density_1/n414_inst0.json,Control,1,414,6624,11178,90308,6624
+dataset/control/density_1/n43_inst0.json,Control,1,43,683,1156,3376,683
+dataset/control/density_1/n467_inst0.json,Control,1,467,7467,12604,56224,7467
+dataset/control/density_1/n48_inst0.json,Control,1,48,768,1296,4116,768
+dataset/control/density_1/n526_inst0.json,Control,1,526,8416,14202,42992,8416
+dataset/control/density_1/n54_inst0.json,Control,1,54,864,1458,4018,864
+dataset/control/density_1/n592_inst0.json,Control,1,592,9472,15984,59174,9472
+dataset/control/density_1/n61_inst0.json,Control,1,61,971,1642,6762,971
+dataset/control/density_1/n668_inst0.json,Control,1,668,10688,18036,62756,10688
+dataset/control/density_1/n69_inst0.json,Control,1,69,1099,1858,6218,1099
+dataset/control/density_1/n78_inst0.json,Control,1,78,1248,2106,6626,1248
+dataset/control/density_1/n848_inst0.json,Control,1,848,13568,22896,114496,13568
+dataset/control/density_1/n88_inst0.json,Control,1,88,1408,2376,8066,1408
+dataset/control/density_1/n955_inst0.json,Control,1,955,15275,25780,73070,15275
+dataset/control/density_1/n99_inst0.json,Control,1,99,1579,2668,9458,1579
+dataset/control/density_10/n1076_inst0.json,Control,10,1076,17216,29052,11660612,1173916
+dataset/control/density_10/n111_inst0.json,Control,10,111,1771,2992,131702,13981
+dataset/control/density_10/n1213_inst0.json,Control,10,1213,19403,32746,14807036,1489559
+dataset/control/density_10/n125_inst0.json,Control,10,125,1995,3370,165820,17495
+dataset/control/density_10/n141_inst0.json,Control,10,141,2251,3802,209612,21991
+dataset/control/density_10/n159_inst0.json,Control,10,159,2539,4288,264998,27661
+dataset/control/density_10/n179_inst0.json,Control,10,179,2859,4828,334138,34721
+dataset/control/density_10/n202_inst0.json,Control,10,202,3232,5454,423594,43834
+dataset/control/density_10/n228_inst0.json,Control,10,228,3648,6156,537396,55404
+dataset/control/density_10/n257_inst0.json,Control,10,257,4107,6934,680224,69899
+dataset/control/density_10/n289_inst0.json,Control,10,289,4619,7798,857408,87851
+dataset/control/density_10/n326_inst0.json,Control,10,326,5216,8802,1087862,111166
+dataset/control/density_10/n367_inst0.json,Control,10,367,5867,9904,1375094,140189
+dataset/control/density_10/n38_inst0.json,Control,10,38,608,1026,17366,2014
+dataset/control/density_10/n414_inst0.json,Control,10,414,6624,11178,1745838,177606
+dataset/control/density_10/n43_inst0.json,Control,10,43,683,1156,21746,2489
+dataset/control/density_10/n467_inst0.json,Control,10,467,7467,12604,2216794,225089
+dataset/control/density_10/n48_inst0.json,Control,10,48,768,1296,26736,3024
+dataset/control/density_10/n526_inst0.json,Control,10,526,8416,14202,2807262,284566
+dataset/control/density_10/n54_inst0.json,Control,10,54,864,1458,33318,3726
+dataset/control/density_10/n592_inst0.json,Control,10,592,9472,15984,3550224,359344
+dataset/control/density_10/n61_inst0.json,Control,10,61,971,1642,41852,4631
+dataset/control/density_10/n668_inst0.json,Control,10,668,10688,18036,4513676,456244
+dataset/control/density_10/n69_inst0.json,Control,10,69,1099,1858,52868,5791
+dataset/control/density_10/n752_inst0.json,Control,10,752,12032,20304,5712944,576784
+dataset/control/density_10/n78_inst0.json,Control,10,78,1248,2106,66846,7254
+dataset/control/density_10/n848_inst0.json,Control,10,848,13568,22896,7256336,731824
+dataset/control/density_10/n88_inst0.json,Control,10,88,1408,2376,84216,9064
+dataset/control/density_10/n955_inst0.json,Control,10,955,15275,25780,9193730,926345
+dataset/control/density_10/n99_inst0.json,Control,10,99,1579,2668,105578,11281
+dataset/control/density_3/n1076_inst0.json,Control,3,1076,17216,29052,10550512,17216
+dataset/control/density_3/n111_inst0.json,Control,3,111,1771,2992,116042,1771
+dataset/control/density_3/n1213_inst0.json,Control,3,1213,19403,32746,12908156,19403
+dataset/control/density_3/n125_inst0.json,Control,3,125,1995,3370,138900,1995
+dataset/control/density_3/n141_inst0.json,Control,3,141,2251,3802,193552,2251
+dataset/control/density_3/n159_inst0.json,Control,3,159,2539,4288,228528,2539
+dataset/control/density_3/n179_inst0.json,Control,3,179,2859,4828,294778,2859
+dataset/control/density_3/n202_inst0.json,Control,3,202,3232,5454,361974,3232
+dataset/control/density_3/n228_inst0.json,Control,3,228,3648,6156,435436,3648
+dataset/control/density_3/n257_inst0.json,Control,3,257,4107,6934,591674,4107
+dataset/control/density_3/n289_inst0.json,Control,3,289,4619,7798,752048,4619
+dataset/control/density_3/n326_inst0.json,Control,3,326,5216,8802,984592,5216
+dataset/control/density_3/n367_inst0.json,Control,3,367,5867,9904,1232174,5867
+dataset/control/density_3/n38_inst0.json,Control,3,38,608,1026,14956,608
+dataset/control/density_3/n414_inst0.json,Control,3,414,6624,11178,1468558,6624
+dataset/control/density_3/n43_inst0.json,Control,3,43,683,1156,16706,683
+dataset/control/density_3/n467_inst0.json,Control,3,467,7467,12604,1995644,7467
+dataset/control/density_3/n48_inst0.json,Control,3,48,768,1296,24116,3024
+dataset/control/density_3/n526_inst0.json,Control,3,526,8416,14202,2496612,8416
+dataset/control/density_3/n54_inst0.json,Control,3,54,864,1458,30898,3726
+dataset/control/density_3/n592_inst0.json,Control,3,592,9472,15984,3170924,9472
+dataset/control/density_3/n61_inst0.json,Control,3,61,971,1642,31862,971
+dataset/control/density_3/n668_inst0.json,Control,3,668,10688,18036,3781116,10688
+dataset/control/density_3/n69_inst0.json,Control,3,69,1099,1858,47128,5791
+dataset/control/density_3/n752_inst0.json,Control,3,752,12032,20304,5004274,12032
+dataset/control/density_3/n78_inst0.json,Control,3,78,1248,2106,61066,7254
+dataset/control/density_3/n848_inst0.json,Control,3,848,13568,22896,6470296,13568
+dataset/control/density_3/n88_inst0.json,Control,3,88,1408,2376,70246,1408
+dataset/control/density_3/n955_inst0.json,Control,3,955,15275,25780,8018400,15275
+dataset/control/density_3/n99_inst0.json,Control,3,99,1579,2668,91668,1579
+dataset/control/density_6/n1076_inst0.json,Control,6,1076,17216,29052,11596132,1173916
+dataset/control/density_6/n111_inst0.json,Control,6,111,1771,2992,129502,13981
+dataset/control/density_6/n1213_inst0.json,Control,6,1213,19403,32746,14698046,1489559
+dataset/control/density_6/n125_inst0.json,Control,6,125,1995,3370,163340,17495
+dataset/control/density_6/n141_inst0.json,Control,6,141,2251,3802,205412,21991
+dataset/control/density_6/n159_inst0.json,Control,6,159,2539,4288,261838,27661
+dataset/control/density_6/n179_inst0.json,Control,6,179,2859,4828,328798,34721
+dataset/control/density_6/n202_inst0.json,Control,6,202,3232,5454,417544,43834
+dataset/control/density_6/n228_inst0.json,Control,6,228,3648,6156,532836,55404
+dataset/control/density_6/n257_inst0.json,Control,6,257,4107,6934,672544,69899
+dataset/control/density_6/n289_inst0.json,Control,6,289,4619,7798,845888,87851
+dataset/control/density_6/n326_inst0.json,Control,6,326,5216,8802,1074842,111166
+dataset/control/density_6/n367_inst0.json,Control,6,367,5867,9904,1360464,140189
+dataset/control/density_6/n38_inst0.json,Control,6,38,608,1026,16606,2014
+dataset/control/density_6/n414_inst0.json,Control,6,414,6624,11178,1737558,177606
+dataset/control/density_6/n43_inst0.json,Control,6,43,683,1156,20906,2489
+dataset/control/density_6/n467_inst0.json,Control,6,467,7467,12604,2207474,225089
+dataset/control/density_6/n48_inst0.json,Control,6,48,768,1296,25776,3024
+dataset/control/density_6/n526_inst0.json,Control,6,526,8416,14202,2775782,284566
+dataset/control/density_6/n54_inst0.json,Control,6,54,864,1458,32238,3726
+dataset/control/density_6/n592_inst0.json,Control,6,592,9472,15984,3520674,359344
+dataset/control/density_6/n61_inst0.json,Control,6,61,971,1642,40652,4631
+dataset/control/density_6/n668_inst0.json,Control,6,668,10688,18036,4500316,456244
+dataset/control/density_6/n69_inst0.json,Control,6,69,1099,1858,51508,5791
+dataset/control/density_6/n752_inst0.json,Control,6,752,12032,20304,5660394,576784
+dataset/control/density_6/n78_inst0.json,Control,6,78,1248,2106,65286,7254
+dataset/control/density_6/n848_inst0.json,Control,6,848,13568,22896,7213986,731824
+dataset/control/density_6/n88_inst0.json,Control,6,88,1408,2376,82456,9064
+dataset/control/density_6/n955_inst0.json,Control,6,955,15275,25780,9098450,926345
+dataset/control/density_6/n99_inst0.json,Control,6,99,1579,2668,103618,11281
+dataset/eq_qp/density_1/n1024_inst0.json,Eq QP,1,1024,1024,512,1024,1024
+dataset/eq_qp/density_1/n11177_inst0.json,Eq QP,1,11177,11177,5588,11177,11177
+dataset/eq_qp/density_1/n1154_inst0.json,Eq QP,1,1154,1154,577,1154,1154
+dataset/eq_qp/density_1/n12596_inst0.json,Eq QP,1,12596,12596,6298,12596,12596
+dataset/eq_qp/density_1/n1300_inst0.json,Eq QP,1,1300,1300,650,1300,1300
+dataset/eq_qp/density_1/n14195_inst0.json,Eq QP,1,14195,14195,7097,14195,14195
+dataset/eq_qp/density_1/n1466_inst0.json,Eq QP,1,1466,1466,733,1466,1466
+dataset/eq_qp/density_1/n15997_inst0.json,Eq QP,1,15997,15997,7998,15997,15997
+dataset/eq_qp/density_1/n1652_inst0.json,Eq QP,1,1652,1652,826,1652,1652
+dataset/eq_qp/density_1/n18028_inst0.json,Eq QP,1,18028,18028,9014,18028,18028
+dataset/eq_qp/density_1/n1861_inst0.json,Eq QP,1,1861,1861,930,1861,1861
+dataset/eq_qp/density_1/n20316_inst0.json,Eq QP,1,20316,20316,10158,20316,20316
+dataset/eq_qp/density_1/n2098_inst0.json,Eq QP,1,2098,2098,1049,2098,2098
+dataset/eq_qp/density_1/n22895_inst0.json,Eq QP,1,22895,22895,11447,22895,22895
+dataset/eq_qp/density_1/n2364_inst0.json,Eq QP,1,2364,2364,1182,2364,2364
+dataset/eq_qp/density_1/n25802_inst0.json,Eq QP,1,25802,25802,12901,25802,25802
+dataset/eq_qp/density_1/n2664_inst0.json,Eq QP,1,2664,2664,1332,2664,2664
+dataset/eq_qp/density_1/n29077_inst0.json,Eq QP,1,29077,29077,14538,29077,29077
+dataset/eq_qp/density_1/n3002_inst0.json,Eq QP,1,3002,3002,1501,3002,3002
+dataset/eq_qp/density_1/n32768_inst0.json,Eq QP,1,32768,32768,16384,32768,32768
+dataset/eq_qp/density_1/n3383_inst0.json,Eq QP,1,3383,3383,1691,3383,3383
+dataset/eq_qp/density_1/n3813_inst0.json,Eq QP,1,3813,3813,1906,3813,3813
+dataset/eq_qp/density_1/n4297_inst0.json,Eq QP,1,4297,4297,2148,4297,4297
+dataset/eq_qp/density_1/n4842_inst0.json,Eq QP,1,4842,4842,2421,4842,4842
+dataset/eq_qp/density_1/n5457_inst0.json,Eq QP,1,5457,5457,2728,5457,5457
+dataset/eq_qp/density_1/n6149_inst0.json,Eq QP,1,6149,6149,3074,6149,6149
+dataset/eq_qp/density_1/n6930_inst0.json,Eq QP,1,6930,6930,3465,6930,6930
+dataset/eq_qp/density_1/n7810_inst0.json,Eq QP,1,7810,7810,3905,7810,7810
+dataset/eq_qp/density_1/n8801_inst0.json,Eq QP,1,8801,8801,4400,8801,8801
+dataset/eq_qp/density_1/n9918_inst0.json,Eq QP,1,9918,9918,4959,9918,9918
+dataset/eq_qp/density_10/n1024_inst0.json,Eq QP,10,1024,1024,512,10240,89210
+dataset/eq_qp/density_10/n11177_inst0.json,Eq QP,10,11177,11177,5588,111770,1013049
+dataset/eq_qp/density_10/n1154_inst0.json,Eq QP,10,1154,1154,577,11540,101030
+dataset/eq_qp/density_10/n12596_inst0.json,Eq QP,10,12596,12596,6298,125960,1142240
+dataset/eq_qp/density_10/n1300_inst0.json,Eq QP,10,1300,1300,650,13000,114408
+dataset/eq_qp/density_10/n14195_inst0.json,Eq QP,10,14195,14195,7097,141950,1287775
+dataset/eq_qp/density_10/n1466_inst0.json,Eq QP,10,1466,1466,733,14660,129402
+dataset/eq_qp/density_10/n15997_inst0.json,Eq QP,10,15997,15997,7998,159970,1451805
+dataset/eq_qp/density_10/n1652_inst0.json,Eq QP,10,1652,1652,826,16520,146378
+dataset/eq_qp/density_10/n18028_inst0.json,Eq QP,10,18028,18028,9014,180280,1636542
+dataset/eq_qp/density_10/n1861_inst0.json,Eq QP,10,1861,1861,930,18610,165483
+dataset/eq_qp/density_10/n20316_inst0.json,Eq QP,10,20316,20316,10158,203160,1844848
+dataset/eq_qp/density_10/n2098_inst0.json,Eq QP,10,2098,2098,1049,20980,186784
+dataset/eq_qp/density_10/n22895_inst0.json,Eq QP,10,22895,22895,11447,228950,2079367
+dataset/eq_qp/density_10/n2364_inst0.json,Eq QP,10,2364,2364,1182,23640,211080
+dataset/eq_qp/density_10/n25802_inst0.json,Eq QP,10,25802,25802,12901,258020,2343968
+dataset/eq_qp/density_10/n2664_inst0.json,Eq QP,10,2664,2664,1332,26640,238354
+dataset/eq_qp/density_10/n29077_inst0.json,Eq QP,10,29077,29077,14538,290770,2641991
+dataset/eq_qp/density_10/n3002_inst0.json,Eq QP,10,3002,3002,1501,30020,268926
+dataset/eq_qp/density_10/n32768_inst0.json,Eq QP,10,32768,32768,16384,327680,2977868
+dataset/eq_qp/density_10/n3383_inst0.json,Eq QP,10,3383,3383,1691,33830,303927
+dataset/eq_qp/density_10/n3813_inst0.json,Eq QP,10,3813,3813,1906,38130,342967
+dataset/eq_qp/density_10/n4297_inst0.json,Eq QP,10,4297,4297,2148,42970,386893
+dataset/eq_qp/density_10/n4842_inst0.json,Eq QP,10,4842,4842,2421,48420,436508
+dataset/eq_qp/density_10/n5457_inst0.json,Eq QP,10,5457,5457,2728,54570,492799
+dataset/eq_qp/density_10/n6149_inst0.json,Eq QP,10,6149,6149,3074,61490,555591
+dataset/eq_qp/density_10/n6930_inst0.json,Eq QP,10,6930,6930,3465,69300,626584
+dataset/eq_qp/density_10/n7810_inst0.json,Eq QP,10,7810,7810,3905,78100,706754
+dataset/eq_qp/density_10/n8801_inst0.json,Eq QP,10,8801,8801,4400,88010,797053
+dataset/eq_qp/density_10/n9918_inst0.json,Eq QP,10,9918,9918,4959,99180,898558
+dataset/eq_qp/density_3/n1024_inst0.json,Eq QP,3,1024,1024,512,3072,7160
+dataset/eq_qp/density_3/n11177_inst0.json,Eq QP,3,11177,11177,5588,33531,78217
+dataset/eq_qp/density_3/n1154_inst0.json,Eq QP,3,1154,1154,577,3462,8062
+dataset/eq_qp/density_3/n12596_inst0.json,Eq QP,3,12596,12596,6298,37788,88152
+dataset/eq_qp/density_3/n1300_inst0.json,Eq QP,3,1300,1300,650,3900,9080
+dataset/eq_qp/density_3/n14195_inst0.json,Eq QP,3,14195,14195,7097,42585,99347
+dataset/eq_qp/density_3/n1466_inst0.json,Eq QP,3,1466,1466,733,4398,10236
+dataset/eq_qp/density_3/n15997_inst0.json,Eq QP,3,15997,15997,7998,47991,111969
+dataset/eq_qp/density_3/n1652_inst0.json,Eq QP,3,1652,1652,826,4956,11552
+dataset/eq_qp/density_3/n18028_inst0.json,Eq QP,3,18028,18028,9014,54084,126182
+dataset/eq_qp/density_3/n1861_inst0.json,Eq QP,3,1861,1861,930,5583,13017
+dataset/eq_qp/density_3/n20316_inst0.json,Eq QP,3,20316,20316,10158,60948,142196
+dataset/eq_qp/density_3/n2098_inst0.json,Eq QP,3,2098,2098,1049,6294,14668
+dataset/eq_qp/density_3/n22895_inst0.json,Eq QP,3,22895,22895,11447,68685,160241
+dataset/eq_qp/density_3/n2364_inst0.json,Eq QP,3,2364,2364,1182,7092,16526
+dataset/eq_qp/density_3/n25802_inst0.json,Eq QP,3,25802,25802,12901,77406,180588
+dataset/eq_qp/density_3/n2664_inst0.json,Eq QP,3,2664,2664,1332,7992,18638
+dataset/eq_qp/density_3/n29077_inst0.json,Eq QP,3,29077,29077,14538,87231,203519
+dataset/eq_qp/density_3/n3002_inst0.json,Eq QP,3,3002,3002,1501,9006,20998
+dataset/eq_qp/density_3/n32768_inst0.json,Eq QP,3,32768,32768,16384,98304,229358
+dataset/eq_qp/density_3/n3383_inst0.json,Eq QP,3,3383,3383,1691,10149,23669
+dataset/eq_qp/density_3/n3813_inst0.json,Eq QP,3,3813,3813,1906,11439,26657
+dataset/eq_qp/density_3/n4297_inst0.json,Eq QP,3,4297,4297,2148,12891,30067
+dataset/eq_qp/density_3/n4842_inst0.json,Eq QP,3,4842,4842,2421,14526,33878
+dataset/eq_qp/density_3/n5457_inst0.json,Eq QP,3,5457,5457,2728,16371,38181
+dataset/eq_qp/density_3/n6149_inst0.json,Eq QP,3,6149,6149,3074,18447,43027
+dataset/eq_qp/density_3/n6930_inst0.json,Eq QP,3,6930,6930,3465,20790,48484
+dataset/eq_qp/density_3/n7810_inst0.json,Eq QP,3,7810,7810,3905,23430,54650
+dataset/eq_qp/density_3/n8801_inst0.json,Eq QP,3,8801,8801,4400,26403,61587
+dataset/eq_qp/density_3/n9918_inst0.json,Eq QP,3,9918,9918,4959,29754,69398
+dataset/eq_qp/density_6/n1024_inst0.json,Eq QP,6,1024,1024,512,6144,31330
+dataset/eq_qp/density_6/n11177_inst0.json,Eq QP,6,11177,11177,5588,67062,346035
+dataset/eq_qp/density_6/n1154_inst0.json,Eq QP,6,1154,1154,577,6924,35342
+dataset/eq_qp/density_6/n12596_inst0.json,Eq QP,6,12596,12596,6298,75576,390064
+dataset/eq_qp/density_6/n1300_inst0.json,Eq QP,6,1300,1300,650,7800,39846
+dataset/eq_qp/density_6/n14195_inst0.json,Eq QP,6,14195,14195,7097,85170,439615
+dataset/eq_qp/density_6/n1466_inst0.json,Eq QP,6,1466,1466,733,8796,45012
+dataset/eq_qp/density_6/n15997_inst0.json,Eq QP,6,15997,15997,7998,95982,495449
+dataset/eq_qp/density_6/n1652_inst0.json,Eq QP,6,1652,1652,826,9912,50780
+dataset/eq_qp/density_6/n18028_inst0.json,Eq QP,6,18028,18028,9014,108168,558384
+dataset/eq_qp/density_6/n1861_inst0.json,Eq QP,6,1861,1861,930,11166,57225
+dataset/eq_qp/density_6/n20316_inst0.json,Eq QP,6,20316,20316,10158,121896,629320
+dataset/eq_qp/density_6/n2098_inst0.json,Eq QP,6,2098,2098,1049,12588,64628
+dataset/eq_qp/density_6/n22895_inst0.json,Eq QP,6,22895,22895,11447,137370,709271
+dataset/eq_qp/density_6/n2364_inst0.json,Eq QP,6,2364,2364,1182,14184,72882
+dataset/eq_qp/density_6/n25802_inst0.json,Eq QP,6,25802,25802,12901,154812,799406
+dataset/eq_qp/density_6/n2664_inst0.json,Eq QP,6,2664,2664,1332,15984,82120
+dataset/eq_qp/density_6/n29077_inst0.json,Eq QP,6,29077,29077,14538,174462,900943
+dataset/eq_qp/density_6/n3002_inst0.json,Eq QP,6,3002,3002,1501,18012,92578
+dataset/eq_qp/density_6/n32768_inst0.json,Eq QP,6,32768,32768,16384,196608,1015364
+dataset/eq_qp/density_6/n3383_inst0.json,Eq QP,6,3383,3383,1691,20298,104371
+dataset/eq_qp/density_6/n3813_inst0.json,Eq QP,6,3813,3813,1906,22878,117717
+dataset/eq_qp/density_6/n4297_inst0.json,Eq QP,6,4297,4297,2148,25782,132789
+dataset/eq_qp/density_6/n4842_inst0.json,Eq QP,6,4842,4842,2421,29052,149626
+dataset/eq_qp/density_6/n5457_inst0.json,Eq QP,6,5457,5457,2728,32742,168717
+dataset/eq_qp/density_6/n6149_inst0.json,Eq QP,6,6149,6149,3074,36894,190123
+dataset/eq_qp/density_6/n6930_inst0.json,Eq QP,6,6930,6930,3465,41580,214390
+dataset/eq_qp/density_6/n7810_inst0.json,Eq QP,6,7810,7810,3905,46860,241678
+dataset/eq_qp/density_6/n8801_inst0.json,Eq QP,6,8801,8801,4400,52806,272371
+dataset/eq_qp/density_6/n9918_inst0.json,Eq QP,6,9918,9918,4959,59508,307028
+dataset/huber/density_1/n108_inst0.json,Huber,1,108,32508,32400,54108,10800
+dataset/huber/density_1/n10_inst0.json,Huber,1,10,3010,3000,5010,1000
+dataset/huber/density_1/n11_inst0.json,Huber,1,11,3311,3300,5511,1100
+dataset/huber/density_1/n12_inst0.json,Huber,1,12,3612,3600,6012,1200
+dataset/huber/density_1/n13_inst0.json,Huber,1,13,3913,3900,6513,1300
+dataset/huber/density_1/n14_inst0.json,Huber,1,14,4214,4200,7014,1400
+dataset/huber/density_1/n15_inst0.json,Huber,1,15,4515,4500,7515,1500
+dataset/huber/density_1/n16_inst0.json,Huber,1,16,4816,4800,8016,1600
+dataset/huber/density_1/n18_inst0.json,Huber,1,18,5418,5400,9018,1800
+dataset/huber/density_1/n19_inst0.json,Huber,1,19,5719,5700,9519,1900
+dataset/huber/density_1/n21_inst0.json,Huber,1,21,6321,6300,10521,2100
+dataset/huber/density_1/n23_inst0.json,Huber,1,23,6923,6900,11523,2300
+dataset/huber/density_1/n25_inst0.json,Huber,1,25,7525,7500,12525,2500
+dataset/huber/density_1/n27_inst0.json,Huber,1,27,8127,8100,13527,2700
+dataset/huber/density_1/n29_inst0.json,Huber,1,29,8729,8700,14529,2900
+dataset/huber/density_1/n32_inst0.json,Huber,1,32,9632,9600,16032,3200
+dataset/huber/density_1/n34_inst0.json,Huber,1,34,10234,10200,17034,3400
+dataset/huber/density_1/n37_inst0.json,Huber,1,37,11137,11100,18537,3700
+dataset/huber/density_1/n40_inst0.json,Huber,1,40,12040,12000,20040,4000
+dataset/huber/density_1/n44_inst0.json,Huber,1,44,13244,13200,22044,4400
+dataset/huber/density_1/n48_inst0.json,Huber,1,48,14448,14400,24048,4800
+dataset/huber/density_1/n52_inst0.json,Huber,1,52,15652,15600,26052,5200
+dataset/huber/density_1/n56_inst0.json,Huber,1,56,16856,16800,28056,5600
+dataset/huber/density_1/n61_inst0.json,Huber,1,61,18361,18300,30561,6100
+dataset/huber/density_1/n66_inst0.json,Huber,1,66,19866,19800,33066,6600
+dataset/huber/density_1/n72_inst0.json,Huber,1,72,21672,21600,36072,7200
+dataset/huber/density_1/n78_inst0.json,Huber,1,78,23478,23400,39078,7800
+dataset/huber/density_1/n84_inst0.json,Huber,1,84,25284,25200,42084,8400
+dataset/huber/density_1/n92_inst0.json,Huber,1,92,27692,27600,46092,9200
+dataset/huber/density_1/n99_inst0.json,Huber,1,99,29799,29700,49599,9900
+dataset/huber/density_10/n108_inst0.json,Huber,10,108,32508,32400,55080,10800
+dataset/huber/density_10/n10_inst0.json,Huber,10,10,3010,3000,5100,1000
+dataset/huber/density_10/n11_inst0.json,Huber,10,11,3311,3300,5610,1100
+dataset/huber/density_10/n12_inst0.json,Huber,10,12,3612,3600,6120,1200
+dataset/huber/density_10/n13_inst0.json,Huber,10,13,3913,3900,6630,1300
+dataset/huber/density_10/n14_inst0.json,Huber,10,14,4214,4200,7140,1400
+dataset/huber/density_10/n15_inst0.json,Huber,10,15,4515,4500,7650,1500
+dataset/huber/density_10/n16_inst0.json,Huber,10,16,4816,4800,8160,1600
+dataset/huber/density_10/n18_inst0.json,Huber,10,18,5418,5400,9180,1800
+dataset/huber/density_10/n19_inst0.json,Huber,10,19,5719,5700,9690,1900
+dataset/huber/density_10/n21_inst0.json,Huber,10,21,6321,6300,10710,2100
+dataset/huber/density_10/n23_inst0.json,Huber,10,23,6923,6900,11730,2300
+dataset/huber/density_10/n25_inst0.json,Huber,10,25,7525,7500,12750,2500
+dataset/huber/density_10/n27_inst0.json,Huber,10,27,8127,8100,13770,2700
+dataset/huber/density_10/n29_inst0.json,Huber,10,29,8729,8700,14790,2900
+dataset/huber/density_10/n32_inst0.json,Huber,10,32,9632,9600,16320,3200
+dataset/huber/density_10/n34_inst0.json,Huber,10,34,10234,10200,17340,3400
+dataset/huber/density_10/n37_inst0.json,Huber,10,37,11137,11100,18870,3700
+dataset/huber/density_10/n40_inst0.json,Huber,10,40,12040,12000,20400,4000
+dataset/huber/density_10/n44_inst0.json,Huber,10,44,13244,13200,22440,4400
+dataset/huber/density_10/n48_inst0.json,Huber,10,48,14448,14400,24480,4800
+dataset/huber/density_10/n52_inst0.json,Huber,10,52,15652,15600,26520,5200
+dataset/huber/density_10/n56_inst0.json,Huber,10,56,16856,16800,28560,5600
+dataset/huber/density_10/n61_inst0.json,Huber,10,61,18361,18300,31110,6100
+dataset/huber/density_10/n66_inst0.json,Huber,10,66,19866,19800,33660,6600
+dataset/huber/density_10/n72_inst0.json,Huber,10,72,21672,21600,36720,7200
+dataset/huber/density_10/n78_inst0.json,Huber,10,78,23478,23400,39780,7800
+dataset/huber/density_10/n84_inst0.json,Huber,10,84,25284,25200,42840,8400
+dataset/huber/density_10/n92_inst0.json,Huber,10,92,27692,27600,46920,9200
+dataset/huber/density_10/n99_inst0.json,Huber,10,99,29799,29700,50490,9900
+dataset/huber/density_3/n108_inst0.json,Huber,3,108,32508,32400,54324,10800
+dataset/huber/density_3/n10_inst0.json,Huber,3,10,3010,3000,5030,1000
+dataset/huber/density_3/n11_inst0.json,Huber,3,11,3311,3300,5533,1100
+dataset/huber/density_3/n12_inst0.json,Huber,3,12,3612,3600,6036,1200
+dataset/huber/density_3/n13_inst0.json,Huber,3,13,3913,3900,6539,1300
+dataset/huber/density_3/n14_inst0.json,Huber,3,14,4214,4200,7042,1400
+dataset/huber/density_3/n15_inst0.json,Huber,3,15,4515,4500,7545,1500
+dataset/huber/density_3/n16_inst0.json,Huber,3,16,4816,4800,8048,1600
+dataset/huber/density_3/n18_inst0.json,Huber,3,18,5418,5400,9054,1800
+dataset/huber/density_3/n19_inst0.json,Huber,3,19,5719,5700,9557,1900
+dataset/huber/density_3/n21_inst0.json,Huber,3,21,6321,6300,10563,2100
+dataset/huber/density_3/n23_inst0.json,Huber,3,23,6923,6900,11569,2300
+dataset/huber/density_3/n25_inst0.json,Huber,3,25,7525,7500,12575,2500
+dataset/huber/density_3/n27_inst0.json,Huber,3,27,8127,8100,13581,2700
+dataset/huber/density_3/n29_inst0.json,Huber,3,29,8729,8700,14587,2900
+dataset/huber/density_3/n32_inst0.json,Huber,3,32,9632,9600,16096,3200
+dataset/huber/density_3/n34_inst0.json,Huber,3,34,10234,10200,17102,3400
+dataset/huber/density_3/n37_inst0.json,Huber,3,37,11137,11100,18611,3700
+dataset/huber/density_3/n40_inst0.json,Huber,3,40,12040,12000,20120,4000
+dataset/huber/density_3/n44_inst0.json,Huber,3,44,13244,13200,22132,4400
+dataset/huber/density_3/n48_inst0.json,Huber,3,48,14448,14400,24144,4800
+dataset/huber/density_3/n52_inst0.json,Huber,3,52,15652,15600,26156,5200
+dataset/huber/density_3/n56_inst0.json,Huber,3,56,16856,16800,28168,5600
+dataset/huber/density_3/n61_inst0.json,Huber,3,61,18361,18300,30683,6100
+dataset/huber/density_3/n66_inst0.json,Huber,3,66,19866,19800,33198,6600
+dataset/huber/density_3/n72_inst0.json,Huber,3,72,21672,21600,36216,7200
+dataset/huber/density_3/n78_inst0.json,Huber,3,78,23478,23400,39234,7800
+dataset/huber/density_3/n84_inst0.json,Huber,3,84,25284,25200,42252,8400
+dataset/huber/density_3/n92_inst0.json,Huber,3,92,27692,27600,46276,9200
+dataset/huber/density_3/n99_inst0.json,Huber,3,99,29799,29700,49797,9900
+dataset/huber/density_6/n108_inst0.json,Huber,6,108,32508,32400,54648,10800
+dataset/huber/density_6/n10_inst0.json,Huber,6,10,3010,3000,5060,1000
+dataset/huber/density_6/n11_inst0.json,Huber,6,11,3311,3300,5566,1100
+dataset/huber/density_6/n12_inst0.json,Huber,6,12,3612,3600,6072,1200
+dataset/huber/density_6/n13_inst0.json,Huber,6,13,3913,3900,6578,1300
+dataset/huber/density_6/n14_inst0.json,Huber,6,14,4214,4200,7084,1400
+dataset/huber/density_6/n15_inst0.json,Huber,6,15,4515,4500,7590,1500
+dataset/huber/density_6/n16_inst0.json,Huber,6,16,4816,4800,8096,1600
+dataset/huber/density_6/n18_inst0.json,Huber,6,18,5418,5400,9108,1800
+dataset/huber/density_6/n19_inst0.json,Huber,6,19,5719,5700,9614,1900
+dataset/huber/density_6/n21_inst0.json,Huber,6,21,6321,6300,10626,2100
+dataset/huber/density_6/n23_inst0.json,Huber,6,23,6923,6900,11638,2300
+dataset/huber/density_6/n25_inst0.json,Huber,6,25,7525,7500,12650,2500
+dataset/huber/density_6/n27_inst0.json,Huber,6,27,8127,8100,13662,2700
+dataset/huber/density_6/n29_inst0.json,Huber,6,29,8729,8700,14674,2900
+dataset/huber/density_6/n32_inst0.json,Huber,6,32,9632,9600,16192,3200
+dataset/huber/density_6/n34_inst0.json,Huber,6,34,10234,10200,17204,3400
+dataset/huber/density_6/n37_inst0.json,Huber,6,37,11137,11100,18722,3700
+dataset/huber/density_6/n40_inst0.json,Huber,6,40,12040,12000,20240,4000
+dataset/huber/density_6/n44_inst0.json,Huber,6,44,13244,13200,22264,4400
+dataset/huber/density_6/n48_inst0.json,Huber,6,48,14448,14400,24288,4800
+dataset/huber/density_6/n52_inst0.json,Huber,6,52,15652,15600,26312,5200
+dataset/huber/density_6/n56_inst0.json,Huber,6,56,16856,16800,28336,5600
+dataset/huber/density_6/n61_inst0.json,Huber,6,61,18361,18300,30866,6100
+dataset/huber/density_6/n66_inst0.json,Huber,6,66,19866,19800,33396,6600
+dataset/huber/density_6/n72_inst0.json,Huber,6,72,21672,21600,36432,7200
+dataset/huber/density_6/n78_inst0.json,Huber,6,78,23478,23400,39468,7800
+dataset/huber/density_6/n84_inst0.json,Huber,6,84,25284,25200,42504,8400
+dataset/huber/density_6/n92_inst0.json,Huber,6,92,27692,27600,46552,9200
+dataset/huber/density_6/n99_inst0.json,Huber,6,99,29799,29700,50094,9900
+dataset/lasso/density_1/n109_inst0.json,Lasso,1,109,11118,11118,11445,10900
+dataset/lasso/density_1/n10_inst0.json,Lasso,1,10,1020,1020,1050,1000
+dataset/lasso/density_1/n11_inst0.json,Lasso,1,11,1122,1122,1155,1100
+dataset/lasso/density_1/n123_inst0.json,Lasso,1,123,12546,12546,12915,12300
+dataset/lasso/density_1/n139_inst0.json,Lasso,1,139,14178,14178,14595,13900
+dataset/lasso/density_1/n13_inst0.json,Lasso,1,13,1326,1326,1365,1300
+dataset/lasso/density_1/n14_inst0.json,Lasso,1,14,1428,1428,1470,1400
+dataset/lasso/density_1/n157_inst0.json,Lasso,1,157,16014,16014,16485,15700
+dataset/lasso/density_1/n16_inst0.json,Lasso,1,16,1632,1632,1680,1600
+dataset/lasso/density_1/n177_inst0.json,Lasso,1,177,18054,18054,18585,17700
+dataset/lasso/density_1/n18_inst0.json,Lasso,1,18,1836,1836,1890,1800
+dataset/lasso/density_1/n199_inst0.json,Lasso,1,199,20298,20298,20895,19900
+dataset/lasso/density_1/n20_inst0.json,Lasso,1,20,2040,2040,2100,2000
+dataset/lasso/density_1/n224_inst0.json,Lasso,1,224,22848,22848,23520,22400
+dataset/lasso/density_1/n23_inst0.json,Lasso,1,23,2346,2346,2415,2300
+dataset/lasso/density_1/n253_inst0.json,Lasso,1,253,25806,25806,26565,25300
+dataset/lasso/density_1/n26_inst0.json,Lasso,1,26,2652,2652,2730,2600
+dataset/lasso/density_1/n285_inst0.json,Lasso,1,285,29070,29070,29925,28500
+dataset/lasso/density_1/n29_inst0.json,Lasso,1,29,2958,2958,3045,2900
+dataset/lasso/density_1/n321_inst0.json,Lasso,1,321,32742,32742,33705,32100
+dataset/lasso/density_1/n33_inst0.json,Lasso,1,33,3366,3366,3465,3300
+dataset/lasso/density_1/n37_inst0.json,Lasso,1,37,3774,3774,3885,3700
+dataset/lasso/density_1/n42_inst0.json,Lasso,1,42,4284,4284,4410,4200
+dataset/lasso/density_1/n47_inst0.json,Lasso,1,47,4794,4794,4935,4700
+dataset/lasso/density_1/n53_inst0.json,Lasso,1,53,5406,5406,5565,5300
+dataset/lasso/density_1/n60_inst0.json,Lasso,1,60,6120,6120,6300,6000
+dataset/lasso/density_1/n68_inst0.json,Lasso,1,68,6936,6936,7140,6800
+dataset/lasso/density_1/n76_inst0.json,Lasso,1,76,7752,7752,7980,7600
+dataset/lasso/density_1/n86_inst0.json,Lasso,1,86,8772,8772,9030,8600
+dataset/lasso/density_1/n97_inst0.json,Lasso,1,97,9894,9894,10185,9700
+dataset/lasso/density_10/n109_inst0.json,Lasso,10,109,11118,11118,12426,10900
+dataset/lasso/density_10/n10_inst0.json,Lasso,10,10,1020,1020,1140,1000
+dataset/lasso/density_10/n11_inst0.json,Lasso,10,11,1122,1122,1254,1100
+dataset/lasso/density_10/n123_inst0.json,Lasso,10,123,12546,12546,14022,12300
+dataset/lasso/density_10/n139_inst0.json,Lasso,10,139,14178,14178,15846,13900
+dataset/lasso/density_10/n13_inst0.json,Lasso,10,13,1326,1326,1482,1300
+dataset/lasso/density_10/n14_inst0.json,Lasso,10,14,1428,1428,1596,1400
+dataset/lasso/density_10/n157_inst0.json,Lasso,10,157,16014,16014,17898,15700
+dataset/lasso/density_10/n16_inst0.json,Lasso,10,16,1632,1632,1824,1600
+dataset/lasso/density_10/n177_inst0.json,Lasso,10,177,18054,18054,20178,17700
+dataset/lasso/density_10/n18_inst0.json,Lasso,10,18,1836,1836,2052,1800
+dataset/lasso/density_10/n199_inst0.json,Lasso,10,199,20298,20298,22686,19900
+dataset/lasso/density_10/n20_inst0.json,Lasso,10,20,2040,2040,2280,2000
+dataset/lasso/density_10/n224_inst0.json,Lasso,10,224,22848,22848,25536,22400
+dataset/lasso/density_10/n23_inst0.json,Lasso,10,23,2346,2346,2622,2300
+dataset/lasso/density_10/n253_inst0.json,Lasso,10,253,25806,25806,28842,25300
+dataset/lasso/density_10/n26_inst0.json,Lasso,10,26,2652,2652,2964,2600
+dataset/lasso/density_10/n285_inst0.json,Lasso,10,285,29070,29070,32490,28500
+dataset/lasso/density_10/n29_inst0.json,Lasso,10,29,2958,2958,3306,2900
+dataset/lasso/density_10/n321_inst0.json,Lasso,10,321,32742,32742,36594,32100
+dataset/lasso/density_10/n33_inst0.json,Lasso,10,33,3366,3366,3762,3300
+dataset/lasso/density_10/n37_inst0.json,Lasso,10,37,3774,3774,4218,3700
+dataset/lasso/density_10/n42_inst0.json,Lasso,10,42,4284,4284,4788,4200
+dataset/lasso/density_10/n47_inst0.json,Lasso,10,47,4794,4794,5358,4700
+dataset/lasso/density_10/n53_inst0.json,Lasso,10,53,5406,5406,6042,5300
+dataset/lasso/density_10/n60_inst0.json,Lasso,10,60,6120,6120,6840,6000
+dataset/lasso/density_10/n68_inst0.json,Lasso,10,68,6936,6936,7752,6800
+dataset/lasso/density_10/n76_inst0.json,Lasso,10,76,7752,7752,8664,7600
+dataset/lasso/density_10/n86_inst0.json,Lasso,10,86,8772,8772,9804,8600
+dataset/lasso/density_10/n97_inst0.json,Lasso,10,97,9894,9894,11058,9700
+dataset/lasso/density_3/n109_inst0.json,Lasso,3,109,11118,11118,11663,10900
+dataset/lasso/density_3/n10_inst0.json,Lasso,3,10,1020,1020,1070,1000
+dataset/lasso/density_3/n11_inst0.json,Lasso,3,11,1122,1122,1177,1100
+dataset/lasso/density_3/n123_inst0.json,Lasso,3,123,12546,12546,13161,12300
+dataset/lasso/density_3/n139_inst0.json,Lasso,3,139,14178,14178,14873,13900
+dataset/lasso/density_3/n13_inst0.json,Lasso,3,13,1326,1326,1391,1300
+dataset/lasso/density_3/n14_inst0.json,Lasso,3,14,1428,1428,1498,1400
+dataset/lasso/density_3/n157_inst0.json,Lasso,3,157,16014,16014,16799,15700
+dataset/lasso/density_3/n16_inst0.json,Lasso,3,16,1632,1632,1712,1600
+dataset/lasso/density_3/n177_inst0.json,Lasso,3,177,18054,18054,18939,17700
+dataset/lasso/density_3/n18_inst0.json,Lasso,3,18,1836,1836,1926,1800
+dataset/lasso/density_3/n199_inst0.json,Lasso,3,199,20298,20298,21293,19900
+dataset/lasso/density_3/n20_inst0.json,Lasso,3,20,2040,2040,2140,2000
+dataset/lasso/density_3/n224_inst0.json,Lasso,3,224,22848,22848,23968,22400
+dataset/lasso/density_3/n23_inst0.json,Lasso,3,23,2346,2346,2461,2300
+dataset/lasso/density_3/n253_inst0.json,Lasso,3,253,25806,25806,27071,25300
+dataset/lasso/density_3/n26_inst0.json,Lasso,3,26,2652,2652,2782,2600
+dataset/lasso/density_3/n285_inst0.json,Lasso,3,285,29070,29070,30495,28500
+dataset/lasso/density_3/n29_inst0.json,Lasso,3,29,2958,2958,3103,2900
+dataset/lasso/density_3/n321_inst0.json,Lasso,3,321,32742,32742,34347,32100
+dataset/lasso/density_3/n33_inst0.json,Lasso,3,33,3366,3366,3531,3300
+dataset/lasso/density_3/n37_inst0.json,Lasso,3,37,3774,3774,3959,3700
+dataset/lasso/density_3/n42_inst0.json,Lasso,3,42,4284,4284,4494,4200
+dataset/lasso/density_3/n47_inst0.json,Lasso,3,47,4794,4794,5029,4700
+dataset/lasso/density_3/n53_inst0.json,Lasso,3,53,5406,5406,5671,5300
+dataset/lasso/density_3/n60_inst0.json,Lasso,3,60,6120,6120,6420,6000
+dataset/lasso/density_3/n68_inst0.json,Lasso,3,68,6936,6936,7276,6800
+dataset/lasso/density_3/n76_inst0.json,Lasso,3,76,7752,7752,8132,7600
+dataset/lasso/density_3/n86_inst0.json,Lasso,3,86,8772,8772,9202,8600
+dataset/lasso/density_3/n97_inst0.json,Lasso,3,97,9894,9894,10379,9700
+dataset/lasso/density_6/n109_inst0.json,Lasso,6,109,11118,11118,11990,10900
+dataset/lasso/density_6/n10_inst0.json,Lasso,6,10,1020,1020,1100,1000
+dataset/lasso/density_6/n11_inst0.json,Lasso,6,11,1122,1122,1210,1100
+dataset/lasso/density_6/n123_inst0.json,Lasso,6,123,12546,12546,13530,12300
+dataset/lasso/density_6/n139_inst0.json,Lasso,6,139,14178,14178,15290,13900
+dataset/lasso/density_6/n13_inst0.json,Lasso,6,13,1326,1326,1430,1300
+dataset/lasso/density_6/n14_inst0.json,Lasso,6,14,1428,1428,1540,1400
+dataset/lasso/density_6/n157_inst0.json,Lasso,6,157,16014,16014,17270,15700
+dataset/lasso/density_6/n16_inst0.json,Lasso,6,16,1632,1632,1760,1600
+dataset/lasso/density_6/n177_inst0.json,Lasso,6,177,18054,18054,19470,17700
+dataset/lasso/density_6/n18_inst0.json,Lasso,6,18,1836,1836,1980,1800
+dataset/lasso/density_6/n199_inst0.json,Lasso,6,199,20298,20298,21890,19900
+dataset/lasso/density_6/n20_inst0.json,Lasso,6,20,2040,2040,2200,2000
+dataset/lasso/density_6/n224_inst0.json,Lasso,6,224,22848,22848,24640,22400
+dataset/lasso/density_6/n23_inst0.json,Lasso,6,23,2346,2346,2530,2300
+dataset/lasso/density_6/n253_inst0.json,Lasso,6,253,25806,25806,27830,25300
+dataset/lasso/density_6/n26_inst0.json,Lasso,6,26,2652,2652,2860,2600
+dataset/lasso/density_6/n285_inst0.json,Lasso,6,285,29070,29070,31350,28500
+dataset/lasso/density_6/n29_inst0.json,Lasso,6,29,2958,2958,3190,2900
+dataset/lasso/density_6/n321_inst0.json,Lasso,6,321,32742,32742,35310,32100
+dataset/lasso/density_6/n33_inst0.json,Lasso,6,33,3366,3366,3630,3300
+dataset/lasso/density_6/n37_inst0.json,Lasso,6,37,3774,3774,4070,3700
+dataset/lasso/density_6/n42_inst0.json,Lasso,6,42,4284,4284,4620,4200
+dataset/lasso/density_6/n47_inst0.json,Lasso,6,47,4794,4794,5170,4700
+dataset/lasso/density_6/n53_inst0.json,Lasso,6,53,5406,5406,5830,5300
+dataset/lasso/density_6/n60_inst0.json,Lasso,6,60,6120,6120,6600,6000
+dataset/lasso/density_6/n68_inst0.json,Lasso,6,68,6936,6936,7480,6800
+dataset/lasso/density_6/n76_inst0.json,Lasso,6,76,7752,7752,8360,7600
+dataset/lasso/density_6/n86_inst0.json,Lasso,6,86,8772,8772,9460,8600
+dataset/lasso/density_6/n97_inst0.json,Lasso,6,97,9894,9894,10670,9700
+dataset/portfolio/density_1/n10_inst0.json,Portfolio,1,10,1010,1011,2020,1010
+dataset/portfolio/density_1/n110_inst0.json,Portfolio,1,110,11110,11111,22220,11110
+dataset/portfolio/density_1/n11_inst0.json,Portfolio,1,11,1111,1112,2222,1111
+dataset/portfolio/density_1/n124_inst0.json,Portfolio,1,124,12524,12525,25048,12524
+dataset/portfolio/density_1/n13_inst0.json,Portfolio,1,13,1313,1314,2626,1313
+dataset/portfolio/density_1/n140_inst0.json,Portfolio,1,140,14140,14141,28280,14140
+dataset/portfolio/density_1/n14_inst0.json,Portfolio,1,14,1414,1415,2828,1414
+dataset/portfolio/density_1/n158_inst0.json,Portfolio,1,158,15958,15959,31916,15958
+dataset/portfolio/density_1/n16_inst0.json,Portfolio,1,16,1616,1617,3232,1616
+dataset/portfolio/density_1/n178_inst0.json,Portfolio,1,178,17978,17979,35956,17978
+dataset/portfolio/density_1/n18_inst0.json,Portfolio,1,18,1818,1819,3636,1818
+dataset/portfolio/density_1/n201_inst0.json,Portfolio,1,201,20301,20302,40602,20301
+dataset/portfolio/density_1/n21_inst0.json,Portfolio,1,21,2121,2122,4242,2121
+dataset/portfolio/density_1/n226_inst0.json,Portfolio,1,226,22826,22827,45652,22826
+dataset/portfolio/density_1/n23_inst0.json,Portfolio,1,23,2323,2324,4646,2323
+dataset/portfolio/density_1/n255_inst0.json,Portfolio,1,255,25755,25756,51510,25755
+dataset/portfolio/density_1/n26_inst0.json,Portfolio,1,26,2626,2627,5252,2626
+dataset/portfolio/density_1/n287_inst0.json,Portfolio,1,287,28987,28988,57974,28987
+dataset/portfolio/density_1/n29_inst0.json,Portfolio,1,29,2929,2930,5858,2929
+dataset/portfolio/density_1/n324_inst0.json,Portfolio,1,324,32724,32725,65448,32724
+dataset/portfolio/density_1/n33_inst0.json,Portfolio,1,33,3333,3334,6666,3333
+dataset/portfolio/density_1/n37_inst0.json,Portfolio,1,37,3737,3738,7474,3737
+dataset/portfolio/density_1/n42_inst0.json,Portfolio,1,42,4242,4243,8484,4242
+dataset/portfolio/density_1/n48_inst0.json,Portfolio,1,48,4848,4849,9696,4848
+dataset/portfolio/density_1/n54_inst0.json,Portfolio,1,54,5454,5455,10908,5454
+dataset/portfolio/density_1/n60_inst0.json,Portfolio,1,60,6060,6061,12120,6060
+dataset/portfolio/density_1/n68_inst0.json,Portfolio,1,68,6868,6869,13736,6868
+dataset/portfolio/density_1/n77_inst0.json,Portfolio,1,77,7777,7778,15554,7777
+dataset/portfolio/density_1/n87_inst0.json,Portfolio,1,87,8787,8788,17574,8787
+dataset/portfolio/density_1/n98_inst0.json,Portfolio,1,98,9898,9899,19796,9898
+dataset/portfolio/density_10/n10_inst0.json,Portfolio,10,10,1010,1011,2110,1010
+dataset/portfolio/density_10/n110_inst0.json,Portfolio,10,110,11110,11111,23210,11110
+dataset/portfolio/density_10/n11_inst0.json,Portfolio,10,11,1111,1112,2321,1111
+dataset/portfolio/density_10/n124_inst0.json,Portfolio,10,124,12524,12525,26164,12524
+dataset/portfolio/density_10/n13_inst0.json,Portfolio,10,13,1313,1314,2743,1313
+dataset/portfolio/density_10/n140_inst0.json,Portfolio,10,140,14140,14141,29540,14140
+dataset/portfolio/density_10/n14_inst0.json,Portfolio,10,14,1414,1415,2954,1414
+dataset/portfolio/density_10/n158_inst0.json,Portfolio,10,158,15958,15959,33338,15958
+dataset/portfolio/density_10/n16_inst0.json,Portfolio,10,16,1616,1617,3376,1616
+dataset/portfolio/density_10/n178_inst0.json,Portfolio,10,178,17978,17979,37558,17978
+dataset/portfolio/density_10/n18_inst0.json,Portfolio,10,18,1818,1819,3798,1818
+dataset/portfolio/density_10/n201_inst0.json,Portfolio,10,201,20301,20302,42411,20301
+dataset/portfolio/density_10/n21_inst0.json,Portfolio,10,21,2121,2122,4431,2121
+dataset/portfolio/density_10/n226_inst0.json,Portfolio,10,226,22826,22827,47686,22826
+dataset/portfolio/density_10/n23_inst0.json,Portfolio,10,23,2323,2324,4853,2323
+dataset/portfolio/density_10/n255_inst0.json,Portfolio,10,255,25755,25756,53805,25755
+dataset/portfolio/density_10/n26_inst0.json,Portfolio,10,26,2626,2627,5486,2626
+dataset/portfolio/density_10/n287_inst0.json,Portfolio,10,287,28987,28988,60557,28987
+dataset/portfolio/density_10/n29_inst0.json,Portfolio,10,29,2929,2930,6119,2929
+dataset/portfolio/density_10/n324_inst0.json,Portfolio,10,324,32724,32725,68364,32724
+dataset/portfolio/density_10/n33_inst0.json,Portfolio,10,33,3333,3334,6963,3333
+dataset/portfolio/density_10/n37_inst0.json,Portfolio,10,37,3737,3738,7807,3737
+dataset/portfolio/density_10/n42_inst0.json,Portfolio,10,42,4242,4243,8862,4242
+dataset/portfolio/density_10/n48_inst0.json,Portfolio,10,48,4848,4849,10128,4848
+dataset/portfolio/density_10/n54_inst0.json,Portfolio,10,54,5454,5455,11394,5454
+dataset/portfolio/density_10/n60_inst0.json,Portfolio,10,60,6060,6061,12660,6060
+dataset/portfolio/density_10/n68_inst0.json,Portfolio,10,68,6868,6869,14348,6868
+dataset/portfolio/density_10/n77_inst0.json,Portfolio,10,77,7777,7778,16247,7777
+dataset/portfolio/density_10/n87_inst0.json,Portfolio,10,87,8787,8788,18357,8787
+dataset/portfolio/density_10/n98_inst0.json,Portfolio,10,98,9898,9899,20678,9898
+dataset/portfolio/density_3/n10_inst0.json,Portfolio,3,10,1010,1011,2040,1010
+dataset/portfolio/density_3/n110_inst0.json,Portfolio,3,110,11110,11111,22440,11110
+dataset/portfolio/density_3/n11_inst0.json,Portfolio,3,11,1111,1112,2244,1111
+dataset/portfolio/density_3/n124_inst0.json,Portfolio,3,124,12524,12525,25296,12524
+dataset/portfolio/density_3/n13_inst0.json,Portfolio,3,13,1313,1314,2652,1313
+dataset/portfolio/density_3/n140_inst0.json,Portfolio,3,140,14140,14141,28560,14140
+dataset/portfolio/density_3/n14_inst0.json,Portfolio,3,14,1414,1415,2856,1414
+dataset/portfolio/density_3/n158_inst0.json,Portfolio,3,158,15958,15959,32232,15958
+dataset/portfolio/density_3/n16_inst0.json,Portfolio,3,16,1616,1617,3264,1616
+dataset/portfolio/density_3/n178_inst0.json,Portfolio,3,178,17978,17979,36312,17978
+dataset/portfolio/density_3/n18_inst0.json,Portfolio,3,18,1818,1819,3672,1818
+dataset/portfolio/density_3/n201_inst0.json,Portfolio,3,201,20301,20302,41004,20301
+dataset/portfolio/density_3/n21_inst0.json,Portfolio,3,21,2121,2122,4284,2121
+dataset/portfolio/density_3/n226_inst0.json,Portfolio,3,226,22826,22827,46104,22826
+dataset/portfolio/density_3/n23_inst0.json,Portfolio,3,23,2323,2324,4692,2323
+dataset/portfolio/density_3/n255_inst0.json,Portfolio,3,255,25755,25756,52020,25755
+dataset/portfolio/density_3/n26_inst0.json,Portfolio,3,26,2626,2627,5304,2626
+dataset/portfolio/density_3/n287_inst0.json,Portfolio,3,287,28987,28988,58548,28987
+dataset/portfolio/density_3/n29_inst0.json,Portfolio,3,29,2929,2930,5916,2929
+dataset/portfolio/density_3/n324_inst0.json,Portfolio,3,324,32724,32725,66096,32724
+dataset/portfolio/density_3/n33_inst0.json,Portfolio,3,33,3333,3334,6732,3333
+dataset/portfolio/density_3/n37_inst0.json,Portfolio,3,37,3737,3738,7548,3737
+dataset/portfolio/density_3/n42_inst0.json,Portfolio,3,42,4242,4243,8568,4242
+dataset/portfolio/density_3/n48_inst0.json,Portfolio,3,48,4848,4849,9792,4848
+dataset/portfolio/density_3/n54_inst0.json,Portfolio,3,54,5454,5455,11016,5454
+dataset/portfolio/density_3/n60_inst0.json,Portfolio,3,60,6060,6061,12240,6060
+dataset/portfolio/density_3/n68_inst0.json,Portfolio,3,68,6868,6869,13872,6868
+dataset/portfolio/density_3/n77_inst0.json,Portfolio,3,77,7777,7778,15708,7777
+dataset/portfolio/density_3/n87_inst0.json,Portfolio,3,87,8787,8788,17748,8787
+dataset/portfolio/density_3/n98_inst0.json,Portfolio,3,98,9898,9899,19992,9898
+dataset/portfolio/density_6/n10_inst0.json,Portfolio,6,10,1010,1011,2070,1010
+dataset/portfolio/density_6/n110_inst0.json,Portfolio,6,110,11110,11111,22770,11110
+dataset/portfolio/density_6/n11_inst0.json,Portfolio,6,11,1111,1112,2277,1111
+dataset/portfolio/density_6/n124_inst0.json,Portfolio,6,124,12524,12525,25668,12524
+dataset/portfolio/density_6/n13_inst0.json,Portfolio,6,13,1313,1314,2691,1313
+dataset/portfolio/density_6/n140_inst0.json,Portfolio,6,140,14140,14141,28980,14140
+dataset/portfolio/density_6/n14_inst0.json,Portfolio,6,14,1414,1415,2898,1414
+dataset/portfolio/density_6/n158_inst0.json,Portfolio,6,158,15958,15959,32706,15958
+dataset/portfolio/density_6/n16_inst0.json,Portfolio,6,16,1616,1617,3312,1616
+dataset/portfolio/density_6/n178_inst0.json,Portfolio,6,178,17978,17979,36846,17978
+dataset/portfolio/density_6/n18_inst0.json,Portfolio,6,18,1818,1819,3726,1818
+dataset/portfolio/density_6/n201_inst0.json,Portfolio,6,201,20301,20302,41607,20301
+dataset/portfolio/density_6/n21_inst0.json,Portfolio,6,21,2121,2122,4347,2121
+dataset/portfolio/density_6/n226_inst0.json,Portfolio,6,226,22826,22827,46782,22826
+dataset/portfolio/density_6/n23_inst0.json,Portfolio,6,23,2323,2324,4761,2323
+dataset/portfolio/density_6/n255_inst0.json,Portfolio,6,255,25755,25756,52785,25755
+dataset/portfolio/density_6/n26_inst0.json,Portfolio,6,26,2626,2627,5382,2626
+dataset/portfolio/density_6/n287_inst0.json,Portfolio,6,287,28987,28988,59409,28987
+dataset/portfolio/density_6/n29_inst0.json,Portfolio,6,29,2929,2930,6003,2929
+dataset/portfolio/density_6/n324_inst0.json,Portfolio,6,324,32724,32725,67068,32724
+dataset/portfolio/density_6/n33_inst0.json,Portfolio,6,33,3333,3334,6831,3333
+dataset/portfolio/density_6/n37_inst0.json,Portfolio,6,37,3737,3738,7659,3737
+dataset/portfolio/density_6/n42_inst0.json,Portfolio,6,42,4242,4243,8694,4242
+dataset/portfolio/density_6/n48_inst0.json,Portfolio,6,48,4848,4849,9936,4848
+dataset/portfolio/density_6/n54_inst0.json,Portfolio,6,54,5454,5455,11178,5454
+dataset/portfolio/density_6/n60_inst0.json,Portfolio,6,60,6060,6061,12420,6060
+dataset/portfolio/density_6/n68_inst0.json,Portfolio,6,68,6868,6869,14076,6868
+dataset/portfolio/density_6/n77_inst0.json,Portfolio,6,77,7777,7778,15939,7777
+dataset/portfolio/density_6/n87_inst0.json,Portfolio,6,87,8787,8788,18009,8787
+dataset/portfolio/density_6/n98_inst0.json,Portfolio,6,98,9898,9899,20286,9898
+dataset/random_qp/density_1/n1024_inst0.json,Random QP,1,1024,1024,1024,1024,1024
+dataset/random_qp/density_1/n11177_inst0.json,Random QP,1,11177,11177,11177,11177,11177
+dataset/random_qp/density_1/n1154_inst0.json,Random QP,1,1154,1154,1154,1154,1154
+dataset/random_qp/density_1/n12596_inst0.json,Random QP,1,12596,12596,12596,12596,12596
+dataset/random_qp/density_1/n1300_inst0.json,Random QP,1,1300,1300,1300,1300,1300
+dataset/random_qp/density_1/n14195_inst0.json,Random QP,1,14195,14195,14195,14195,14195
+dataset/random_qp/density_1/n1466_inst0.json,Random QP,1,1466,1466,1466,1466,1466
+dataset/random_qp/density_1/n15997_inst0.json,Random QP,1,15997,15997,15997,15997,15997
+dataset/random_qp/density_1/n1652_inst0.json,Random QP,1,1652,1652,1652,1652,1652
+dataset/random_qp/density_1/n18028_inst0.json,Random QP,1,18028,18028,18028,18028,18028
+dataset/random_qp/density_1/n1861_inst0.json,Random QP,1,1861,1861,1861,1861,1861
+dataset/random_qp/density_1/n20316_inst0.json,Random QP,1,20316,20316,20316,20316,20316
+dataset/random_qp/density_1/n2098_inst0.json,Random QP,1,2098,2098,2098,2098,2098
+dataset/random_qp/density_1/n22895_inst0.json,Random QP,1,22895,22895,22895,22895,22895
+dataset/random_qp/density_1/n2364_inst0.json,Random QP,1,2364,2364,2364,2364,2364
+dataset/random_qp/density_1/n25802_inst0.json,Random QP,1,25802,25802,25802,25802,25802
+dataset/random_qp/density_1/n2664_inst0.json,Random QP,1,2664,2664,2664,2664,2664
+dataset/random_qp/density_1/n29077_inst0.json,Random QP,1,29077,29077,29077,29077,29077
+dataset/random_qp/density_1/n3002_inst0.json,Random QP,1,3002,3002,3002,3002,3002
+dataset/random_qp/density_1/n32768_inst0.json,Random QP,1,32768,32768,32768,32768,32768
+dataset/random_qp/density_1/n3383_inst0.json,Random QP,1,3383,3383,3383,3383,3383
+dataset/random_qp/density_1/n3813_inst0.json,Random QP,1,3813,3813,3813,3813,3813
+dataset/random_qp/density_1/n4297_inst0.json,Random QP,1,4297,4297,4297,4297,4297
+dataset/random_qp/density_1/n4842_inst0.json,Random QP,1,4842,4842,4842,4842,4842
+dataset/random_qp/density_1/n5457_inst0.json,Random QP,1,5457,5457,5457,5457,5457
+dataset/random_qp/density_1/n6149_inst0.json,Random QP,1,6149,6149,6149,6149,6149
+dataset/random_qp/density_1/n6930_inst0.json,Random QP,1,6930,6930,6930,6930,6930
+dataset/random_qp/density_1/n7810_inst0.json,Random QP,1,7810,7810,7810,7810,7810
+dataset/random_qp/density_1/n8801_inst0.json,Random QP,1,8801,8801,8801,8801,8801
+dataset/random_qp/density_1/n9918_inst0.json,Random QP,1,9918,9918,9918,9918,9918
+dataset/random_qp/density_10/n1024_inst0.json,Random QP,10,1024,1024,1024,10240,89294
+dataset/random_qp/density_10/n11177_inst0.json,Random QP,10,11177,11177,11177,111770,1012867
+dataset/random_qp/density_10/n1154_inst0.json,Random QP,10,1154,1154,1154,11540,101108
+dataset/random_qp/density_10/n12596_inst0.json,Random QP,10,12596,12596,12596,125960,1142114
+dataset/random_qp/density_10/n1300_inst0.json,Random QP,10,1300,1300,1300,13000,114412
+dataset/random_qp/density_10/n14195_inst0.json,Random QP,10,14195,14195,14195,141950,1287573
+dataset/random_qp/density_10/n1466_inst0.json,Random QP,10,1466,1466,1466,14660,129354
+dataset/random_qp/density_10/n15997_inst0.json,Random QP,10,15997,15997,15997,159970,1451893
+dataset/random_qp/density_10/n1652_inst0.json,Random QP,10,1652,1652,1652,16520,146322
+dataset/random_qp/density_10/n18028_inst0.json,Random QP,10,18028,18028,18028,180280,1636546
+dataset/random_qp/density_10/n1861_inst0.json,Random QP,10,1861,1861,1861,18610,165219
+dataset/random_qp/density_10/n20316_inst0.json,Random QP,10,20316,20316,20316,203160,1844640
+dataset/random_qp/density_10/n2098_inst0.json,Random QP,10,2098,2098,2098,20980,186764
+dataset/random_qp/density_10/n22895_inst0.json,Random QP,10,22895,22895,22895,228950,2079379
+dataset/random_qp/density_10/n2364_inst0.json,Random QP,10,2364,2364,2364,23640,211100
+dataset/random_qp/density_10/n25802_inst0.json,Random QP,10,25802,25802,25802,258020,2343956
+dataset/random_qp/density_10/n2664_inst0.json,Random QP,10,2664,2664,2664,26640,238390
+dataset/random_qp/density_10/n29077_inst0.json,Random QP,10,29077,29077,29077,290770,2641953
+dataset/random_qp/density_10/n3002_inst0.json,Random QP,10,3002,3002,3002,30020,269198
+dataset/random_qp/density_10/n32768_inst0.json,Random QP,10,32768,32768,32768,327680,2977852
+dataset/random_qp/density_10/n3383_inst0.json,Random QP,10,3383,3383,3383,33830,303673
+dataset/random_qp/density_10/n3813_inst0.json,Random QP,10,3813,3813,3813,38130,342905
+dataset/random_qp/density_10/n4297_inst0.json,Random QP,10,4297,4297,4297,42970,387063
+dataset/random_qp/density_10/n4842_inst0.json,Random QP,10,4842,4842,4842,48420,436632
+dataset/random_qp/density_10/n5457_inst0.json,Random QP,10,5457,5457,5457,54570,492709
+dataset/random_qp/density_10/n6149_inst0.json,Random QP,10,6149,6149,6149,61490,555647
+dataset/random_qp/density_10/n6930_inst0.json,Random QP,10,6930,6930,6930,69300,626526
+dataset/random_qp/density_10/n7810_inst0.json,Random QP,10,7810,7810,7810,78100,706670
+dataset/random_qp/density_10/n8801_inst0.json,Random QP,10,8801,8801,8801,88010,796863
+dataset/random_qp/density_10/n9918_inst0.json,Random QP,10,9918,9918,9918,99180,898670
+dataset/random_qp/density_3/n1024_inst0.json,Random QP,3,1024,1024,1024,3072,7150
+dataset/random_qp/density_3/n11177_inst0.json,Random QP,3,11177,11177,11177,33531,78219
+dataset/random_qp/density_3/n1154_inst0.json,Random QP,3,1154,1154,1154,3462,8058
+dataset/random_qp/density_3/n12596_inst0.json,Random QP,3,12596,12596,12596,37788,88154
+dataset/random_qp/density_3/n1300_inst0.json,Random QP,3,1300,1300,1300,3900,9080
+dataset/random_qp/density_3/n14195_inst0.json,Random QP,3,14195,14195,14195,42585,99345
+dataset/random_qp/density_3/n1466_inst0.json,Random QP,3,1466,1466,1466,4398,10252
+dataset/random_qp/density_3/n15997_inst0.json,Random QP,3,15997,15997,15997,47991,111967
+dataset/random_qp/density_3/n1652_inst0.json,Random QP,3,1652,1652,1652,4956,11544
+dataset/random_qp/density_3/n18028_inst0.json,Random QP,3,18028,18028,18028,54084,126170
+dataset/random_qp/density_3/n1861_inst0.json,Random QP,3,1861,1861,1861,5583,13015
+dataset/random_qp/density_3/n20316_inst0.json,Random QP,3,20316,20316,20316,60948,142204
+dataset/random_qp/density_3/n2098_inst0.json,Random QP,3,2098,2098,2098,6294,14670
+dataset/random_qp/density_3/n22895_inst0.json,Random QP,3,22895,22895,22895,68685,160261
+dataset/random_qp/density_3/n2364_inst0.json,Random QP,3,2364,2364,2364,7092,16530
+dataset/random_qp/density_3/n25802_inst0.json,Random QP,3,25802,25802,25802,77406,180590
+dataset/random_qp/density_3/n2664_inst0.json,Random QP,3,2664,2664,2664,7992,18618
+dataset/random_qp/density_3/n29077_inst0.json,Random QP,3,29077,29077,29077,87231,203517
+dataset/random_qp/density_3/n3002_inst0.json,Random QP,3,3002,3002,3002,9006,21006
+dataset/random_qp/density_3/n32768_inst0.json,Random QP,3,32768,32768,32768,98304,229358
+dataset/random_qp/density_3/n3383_inst0.json,Random QP,3,3383,3383,3383,10149,23665
+dataset/random_qp/density_3/n3813_inst0.json,Random QP,3,3813,3813,3813,11439,26673
+dataset/random_qp/density_3/n4297_inst0.json,Random QP,3,4297,4297,4297,12891,30061
+dataset/random_qp/density_3/n4842_inst0.json,Random QP,3,4842,4842,4842,14526,33862
+dataset/random_qp/density_3/n5457_inst0.json,Random QP,3,5457,5457,5457,16371,38183
+dataset/random_qp/density_3/n6149_inst0.json,Random QP,3,6149,6149,6149,18447,43027
+dataset/random_qp/density_3/n6930_inst0.json,Random QP,3,6930,6930,6930,20790,48502
+dataset/random_qp/density_3/n7810_inst0.json,Random QP,3,7810,7810,7810,23430,54650
+dataset/random_qp/density_3/n8801_inst0.json,Random QP,3,8801,8801,8801,26403,61595
+dataset/random_qp/density_3/n9918_inst0.json,Random QP,3,9918,9918,9918,29754,69410
+dataset/random_qp/density_6/n1024_inst0.json,Random QP,6,1024,1024,1024,6144,31310
+dataset/random_qp/density_6/n11177_inst0.json,Random QP,6,11177,11177,11177,67062,346029
+dataset/random_qp/density_6/n1154_inst0.json,Random QP,6,1154,1154,1154,6924,35354
+dataset/random_qp/density_6/n12596_inst0.json,Random QP,6,12596,12596,12596,75576,390036
+dataset/random_qp/density_6/n1300_inst0.json,Random QP,6,1300,1300,1300,7800,39844
+dataset/random_qp/density_6/n14195_inst0.json,Random QP,6,14195,14195,14195,85170,439583
+dataset/random_qp/density_6/n1466_inst0.json,Random QP,6,1466,1466,1466,8796,45024
+dataset/random_qp/density_6/n15997_inst0.json,Random QP,6,15997,15997,15997,95982,495459
+dataset/random_qp/density_6/n1652_inst0.json,Random QP,6,1652,1652,1652,9912,50776
+dataset/random_qp/density_6/n18028_inst0.json,Random QP,6,18028,18028,18028,108168,558410
+dataset/random_qp/density_6/n1861_inst0.json,Random QP,6,1861,1861,1861,11166,57243
+dataset/random_qp/density_6/n20316_inst0.json,Random QP,6,20316,20316,20316,121896,629330
+dataset/random_qp/density_6/n2098_inst0.json,Random QP,6,2098,2098,2098,12588,64612
+dataset/random_qp/density_6/n22895_inst0.json,Random QP,6,22895,22895,22895,137370,709315
+dataset/random_qp/density_6/n2364_inst0.json,Random QP,6,2364,2364,2364,14184,72790
+dataset/random_qp/density_6/n25802_inst0.json,Random QP,6,25802,25802,25802,154812,799402
+dataset/random_qp/density_6/n2664_inst0.json,Random QP,6,2664,2664,2664,15984,82148
+dataset/random_qp/density_6/n29077_inst0.json,Random QP,6,29077,29077,29077,174462,900925
+dataset/random_qp/density_6/n3002_inst0.json,Random QP,6,3002,3002,3002,18012,92608
+dataset/random_qp/density_6/n32768_inst0.json,Random QP,6,32768,32768,32768,196608,1015362
+dataset/random_qp/density_6/n3383_inst0.json,Random QP,6,3383,3383,3383,20298,104451
+dataset/random_qp/density_6/n3813_inst0.json,Random QP,6,3813,3813,3813,22878,117741
+dataset/random_qp/density_6/n4297_inst0.json,Random QP,6,4297,4297,4297,25782,132715
+dataset/random_qp/density_6/n4842_inst0.json,Random QP,6,4842,4842,4842,29052,149598
+dataset/random_qp/density_6/n5457_inst0.json,Random QP,6,5457,5457,5457,32742,168653
+dataset/random_qp/density_6/n6149_inst0.json,Random QP,6,6149,6149,6149,36894,190163
+dataset/random_qp/density_6/n6930_inst0.json,Random QP,6,6930,6930,6930,41580,214364
+dataset/random_qp/density_6/n7810_inst0.json,Random QP,6,7810,7810,7810,46860,241676
+dataset/random_qp/density_6/n8801_inst0.json,Random QP,6,8801,8801,8801,52806,272407
+dataset/random_qp/density_6/n9918_inst0.json,Random QP,6,9918,9918,9918,59508,307032
+dataset/svm/density_1/n101_inst0.json,SVM,1,101,10201,20200,20402,101
+dataset/svm/density_1/n10_inst0.json,SVM,1,10,1010,2000,2020,10
+dataset/svm/density_1/n111_inst0.json,SVM,1,111,11211,22200,22422,111
+dataset/svm/density_1/n11_inst0.json,SVM,1,11,1111,2200,2222,11
+dataset/svm/density_1/n122_inst0.json,SVM,1,122,12322,24400,24644,122
+dataset/svm/density_1/n12_inst0.json,SVM,1,12,1212,2400,2424,12
+dataset/svm/density_1/n134_inst0.json,SVM,1,134,13534,26800,27068,134
+dataset/svm/density_1/n13_inst0.json,SVM,1,13,1313,2600,2626,13
+dataset/svm/density_1/n148_inst0.json,SVM,1,148,14948,29600,29896,148
+dataset/svm/density_1/n15_inst0.json,SVM,1,15,1515,3000,3030,15
+dataset/svm/density_1/n163_inst0.json,SVM,1,163,16463,32600,32926,163
+dataset/svm/density_1/n16_inst0.json,SVM,1,16,1616,3200,3232,16
+dataset/svm/density_1/n18_inst0.json,SVM,1,18,1818,3600,3636,18
+dataset/svm/density_1/n20_inst0.json,SVM,1,20,2020,4000,4040,20
+dataset/svm/density_1/n22_inst0.json,SVM,1,22,2222,4400,4444,22
+dataset/svm/density_1/n24_inst0.json,SVM,1,24,2424,4800,4848,24
+dataset/svm/density_1/n26_inst0.json,SVM,1,26,2626,5200,5252,26
+dataset/svm/density_1/n29_inst0.json,SVM,1,29,2929,5800,5858,29
+dataset/svm/density_1/n32_inst0.json,SVM,1,32,3232,6400,6464,32
+dataset/svm/density_1/n35_inst0.json,SVM,1,35,3535,7000,7070,35
+dataset/svm/density_1/n38_inst0.json,SVM,1,38,3838,7600,7676,38
+dataset/svm/density_1/n42_inst0.json,SVM,1,42,4242,8400,8484,42
+dataset/svm/density_1/n47_inst0.json,SVM,1,47,4747,9400,9494,47
+dataset/svm/density_1/n51_inst0.json,SVM,1,51,5151,10200,10302,51
+dataset/svm/density_1/n57_inst0.json,SVM,1,57,5757,11400,11514,57
+dataset/svm/density_1/n62_inst0.json,SVM,1,62,6262,12400,12524,62
+dataset/svm/density_1/n69_inst0.json,SVM,1,69,6969,13800,13938,69
+dataset/svm/density_1/n75_inst0.json,SVM,1,75,7575,15000,15150,75
+dataset/svm/density_1/n83_inst0.json,SVM,1,83,8383,16600,16766,83
+dataset/svm/density_1/n91_inst0.json,SVM,1,91,9191,18200,18382,91
+dataset/svm/density_10/n101_inst0.json,SVM,10,101,10201,20200,22220,101
+dataset/svm/density_10/n10_inst0.json,SVM,10,10,1010,2000,2200,10
+dataset/svm/density_10/n111_inst0.json,SVM,10,111,11211,22200,24420,111
+dataset/svm/density_10/n11_inst0.json,SVM,10,11,1111,2200,2420,11
+dataset/svm/density_10/n122_inst0.json,SVM,10,122,12322,24400,26840,122
+dataset/svm/density_10/n12_inst0.json,SVM,10,12,1212,2400,2640,12
+dataset/svm/density_10/n134_inst0.json,SVM,10,134,13534,26800,29480,134
+dataset/svm/density_10/n13_inst0.json,SVM,10,13,1313,2600,2860,13
+dataset/svm/density_10/n148_inst0.json,SVM,10,148,14948,29600,32560,148
+dataset/svm/density_10/n15_inst0.json,SVM,10,15,1515,3000,3300,15
+dataset/svm/density_10/n163_inst0.json,SVM,10,163,16463,32600,35860,163
+dataset/svm/density_10/n16_inst0.json,SVM,10,16,1616,3200,3520,16
+dataset/svm/density_10/n18_inst0.json,SVM,10,18,1818,3600,3960,18
+dataset/svm/density_10/n20_inst0.json,SVM,10,20,2020,4000,4400,20
+dataset/svm/density_10/n22_inst0.json,SVM,10,22,2222,4400,4840,22
+dataset/svm/density_10/n24_inst0.json,SVM,10,24,2424,4800,5280,24
+dataset/svm/density_10/n26_inst0.json,SVM,10,26,2626,5200,5720,26
+dataset/svm/density_10/n29_inst0.json,SVM,10,29,2929,5800,6380,29
+dataset/svm/density_10/n32_inst0.json,SVM,10,32,3232,6400,7040,32
+dataset/svm/density_10/n35_inst0.json,SVM,10,35,3535,7000,7700,35
+dataset/svm/density_10/n38_inst0.json,SVM,10,38,3838,7600,8360,38
+dataset/svm/density_10/n42_inst0.json,SVM,10,42,4242,8400,9240,42
+dataset/svm/density_10/n47_inst0.json,SVM,10,47,4747,9400,10340,47
+dataset/svm/density_10/n51_inst0.json,SVM,10,51,5151,10200,11220,51
+dataset/svm/density_10/n57_inst0.json,SVM,10,57,5757,11400,12540,57
+dataset/svm/density_10/n62_inst0.json,SVM,10,62,6262,12400,13640,62
+dataset/svm/density_10/n69_inst0.json,SVM,10,69,6969,13800,15180,69
+dataset/svm/density_10/n75_inst0.json,SVM,10,75,7575,15000,16500,75
+dataset/svm/density_10/n83_inst0.json,SVM,10,83,8383,16600,18260,83
+dataset/svm/density_10/n91_inst0.json,SVM,10,91,9191,18200,20020,91
+dataset/svm/density_3/n101_inst0.json,SVM,3,101,10201,20200,20806,101
+dataset/svm/density_3/n10_inst0.json,SVM,3,10,1010,2000,2060,10
+dataset/svm/density_3/n111_inst0.json,SVM,3,111,11211,22200,22866,111
+dataset/svm/density_3/n11_inst0.json,SVM,3,11,1111,2200,2266,11
+dataset/svm/density_3/n122_inst0.json,SVM,3,122,12322,24400,25132,122
+dataset/svm/density_3/n12_inst0.json,SVM,3,12,1212,2400,2472,12
+dataset/svm/density_3/n134_inst0.json,SVM,3,134,13534,26800,27604,134
+dataset/svm/density_3/n13_inst0.json,SVM,3,13,1313,2600,2678,13
+dataset/svm/density_3/n148_inst0.json,SVM,3,148,14948,29600,30488,148
+dataset/svm/density_3/n15_inst0.json,SVM,3,15,1515,3000,3090,15
+dataset/svm/density_3/n163_inst0.json,SVM,3,163,16463,32600,33578,163
+dataset/svm/density_3/n16_inst0.json,SVM,3,16,1616,3200,3296,16
+dataset/svm/density_3/n18_inst0.json,SVM,3,18,1818,3600,3708,18
+dataset/svm/density_3/n20_inst0.json,SVM,3,20,2020,4000,4120,20
+dataset/svm/density_3/n22_inst0.json,SVM,3,22,2222,4400,4532,22
+dataset/svm/density_3/n24_inst0.json,SVM,3,24,2424,4800,4944,24
+dataset/svm/density_3/n26_inst0.json,SVM,3,26,2626,5200,5356,26
+dataset/svm/density_3/n29_inst0.json,SVM,3,29,2929,5800,5974,29
+dataset/svm/density_3/n32_inst0.json,SVM,3,32,3232,6400,6592,32
+dataset/svm/density_3/n35_inst0.json,SVM,3,35,3535,7000,7210,35
+dataset/svm/density_3/n38_inst0.json,SVM,3,38,3838,7600,7828,38
+dataset/svm/density_3/n42_inst0.json,SVM,3,42,4242,8400,8652,42
+dataset/svm/density_3/n47_inst0.json,SVM,3,47,4747,9400,9682,47
+dataset/svm/density_3/n51_inst0.json,SVM,3,51,5151,10200,10506,51
+dataset/svm/density_3/n57_inst0.json,SVM,3,57,5757,11400,11742,57
+dataset/svm/density_3/n62_inst0.json,SVM,3,62,6262,12400,12772,62
+dataset/svm/density_3/n69_inst0.json,SVM,3,69,6969,13800,14214,69
+dataset/svm/density_3/n75_inst0.json,SVM,3,75,7575,15000,15450,75
+dataset/svm/density_3/n83_inst0.json,SVM,3,83,8383,16600,17098,83
+dataset/svm/density_3/n91_inst0.json,SVM,3,91,9191,18200,18746,91
+dataset/svm/density_6/n101_inst0.json,SVM,6,101,10201,20200,21412,101
+dataset/svm/density_6/n10_inst0.json,SVM,6,10,1010,2000,2120,10
+dataset/svm/density_6/n111_inst0.json,SVM,6,111,11211,22200,23532,111
+dataset/svm/density_6/n11_inst0.json,SVM,6,11,1111,2200,2332,11
+dataset/svm/density_6/n122_inst0.json,SVM,6,122,12322,24400,25864,122
+dataset/svm/density_6/n12_inst0.json,SVM,6,12,1212,2400,2544,12
+dataset/svm/density_6/n134_inst0.json,SVM,6,134,13534,26800,28408,134
+dataset/svm/density_6/n13_inst0.json,SVM,6,13,1313,2600,2756,13
+dataset/svm/density_6/n148_inst0.json,SVM,6,148,14948,29600,31376,148
+dataset/svm/density_6/n15_inst0.json,SVM,6,15,1515,3000,3180,15
+dataset/svm/density_6/n163_inst0.json,SVM,6,163,16463,32600,34556,163
+dataset/svm/density_6/n16_inst0.json,SVM,6,16,1616,3200,3392,16
+dataset/svm/density_6/n18_inst0.json,SVM,6,18,1818,3600,3816,18
+dataset/svm/density_6/n20_inst0.json,SVM,6,20,2020,4000,4240,20
+dataset/svm/density_6/n22_inst0.json,SVM,6,22,2222,4400,4664,22
+dataset/svm/density_6/n24_inst0.json,SVM,6,24,2424,4800,5088,24
+dataset/svm/density_6/n26_inst0.json,SVM,6,26,2626,5200,5512,26
+dataset/svm/density_6/n29_inst0.json,SVM,6,29,2929,5800,6148,29
+dataset/svm/density_6/n32_inst0.json,SVM,6,32,3232,6400,6784,32
+dataset/svm/density_6/n35_inst0.json,SVM,6,35,3535,7000,7420,35
+dataset/svm/density_6/n38_inst0.json,SVM,6,38,3838,7600,8056,38
+dataset/svm/density_6/n42_inst0.json,SVM,6,42,4242,8400,8904,42
+dataset/svm/density_6/n47_inst0.json,SVM,6,47,4747,9400,9964,47
+dataset/svm/density_6/n51_inst0.json,SVM,6,51,5151,10200,10812,51
+dataset/svm/density_6/n57_inst0.json,SVM,6,57,5757,11400,12084,57
+dataset/svm/density_6/n62_inst0.json,SVM,6,62,6262,12400,13144,62
+dataset/svm/density_6/n69_inst0.json,SVM,6,69,6969,13800,14628,69
+dataset/svm/density_6/n75_inst0.json,SVM,6,75,7575,15000,15900,75
+dataset/svm/density_6/n83_inst0.json,SVM,6,83,8383,16600,17596,83
+dataset/svm/density_6/n91_inst0.json,SVM,6,91,9191,18200,19292,91

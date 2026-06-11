@@ -1,0 +1,629 @@
+class,solver,density,n,m,nnz_P,nnz_A,actual_nnz_per_col_P,actual_nnz_per_col_A
+Random QP,OSQP_builtin_direct,1,1024,1024,1024,1024,1.0,1.0
+Random QP,OSQP_builtin_direct,1,1154,1154,1154,1154,1.0,1.0
+Random QP,OSQP_builtin_direct,1,1300,1300,1300,1300,1.0,1.0
+Random QP,OSQP_builtin_direct,1,1466,1466,1466,1466,1.0,1.0
+Random QP,OSQP_builtin_direct,1,1652,1652,1652,1652,1.0,1.0
+Random QP,OSQP_builtin_direct,1,1861,1861,1861,1861,1.0,1.0
+Random QP,OSQP_builtin_direct,1,2098,2098,2098,2098,1.0,1.0
+Random QP,OSQP_builtin_direct,1,2364,2364,2364,2364,1.0,1.0
+Random QP,OSQP_builtin_direct,1,2664,2664,2664,2664,1.0,1.0
+Random QP,OSQP_builtin_direct,1,3002,3002,3002,3002,1.0,1.0
+Random QP,OSQP_builtin_direct,1,3383,3383,3383,3383,1.0,1.0
+Random QP,OSQP_builtin_direct,1,3813,3813,3813,3813,1.0,1.0
+Random QP,OSQP_builtin_direct,1,4297,4297,4297,4297,1.0,1.0
+Random QP,OSQP_builtin_direct,1,4842,4842,4842,4842,1.0,1.0
+Random QP,OSQP_builtin_direct,1,5457,5457,5457,5457,1.0,1.0
+Random QP,OSQP_builtin_direct,1,6149,6149,6149,6149,1.0,1.0
+Random QP,OSQP_builtin_direct,1,6930,6930,6930,6930,1.0,1.0
+Random QP,OSQP_builtin_direct,1,7810,7810,7810,7810,1.0,1.0
+Random QP,OSQP_builtin_direct,1,8801,8801,8801,8801,1.0,1.0
+Random QP,OSQP_builtin_direct,1,9918,9918,9918,9918,1.0,1.0
+Random QP,OSQP_builtin_direct,1,11177,11177,11177,11177,1.0,1.0
+Random QP,OSQP_builtin_direct,1,12596,12596,12596,12596,1.0,1.0
+Random QP,OSQP_builtin_direct,1,14195,14195,14195,14195,1.0,1.0
+Random QP,OSQP_builtin_direct,1,15997,15997,15997,15997,1.0,1.0
+Random QP,OSQP_builtin_direct,1,18028,18028,18028,18028,1.0,1.0
+Random QP,OSQP_builtin_direct,1,20316,20316,20316,20316,1.0,1.0
+Random QP,OSQP_builtin_direct,1,22895,22895,22895,22895,1.0,1.0
+Random QP,OSQP_builtin_direct,1,25802,25802,25802,25802,1.0,1.0
+Random QP,OSQP_builtin_direct,1,29077,29077,29077,29077,1.0,1.0
+Random QP,OSQP_builtin_direct,1,32768,32768,32768,32768,1.0,1.0
+Random QP,OSQP_builtin_direct,3,1024,1024,7150,3072,6.98,3.0
+Random QP,OSQP_builtin_direct,3,1154,1154,8058,3462,6.98,3.0
+Random QP,OSQP_builtin_direct,3,1300,1300,9080,3900,6.98,3.0
+Random QP,OSQP_builtin_direct,3,1466,1466,10252,4398,6.99,3.0
+Random QP,OSQP_builtin_direct,3,1652,1652,11544,4956,6.99,3.0
+Random QP,OSQP_builtin_direct,3,1861,1861,13015,5583,6.99,3.0
+Random QP,OSQP_builtin_direct,3,2098,2098,14670,6294,6.99,3.0
+Random QP,OSQP_builtin_direct,3,2364,2364,16530,7092,6.99,3.0
+Random QP,OSQP_builtin_direct,3,2664,2664,18618,7992,6.99,3.0
+Random QP,OSQP_builtin_direct,3,3002,3002,21006,9006,7.0,3.0
+Random QP,OSQP_builtin_direct,3,3383,3383,23665,10149,7.0,3.0
+Random QP,OSQP_builtin_direct,3,3813,3813,26673,11439,7.0,3.0
+Random QP,OSQP_builtin_direct,3,4297,4297,30061,12891,7.0,3.0
+Random QP,OSQP_builtin_direct,3,4842,4842,33862,14526,6.99,3.0
+Random QP,OSQP_builtin_direct,3,5457,5457,38183,16371,7.0,3.0
+Random QP,OSQP_builtin_direct,3,6149,6149,43027,18447,7.0,3.0
+Random QP,OSQP_builtin_direct,3,6930,6930,48502,20790,7.0,3.0
+Random QP,OSQP_builtin_direct,3,7810,7810,54650,23430,7.0,3.0
+Random QP,OSQP_builtin_direct,3,8801,8801,61595,26403,7.0,3.0
+Random QP,OSQP_builtin_direct,3,9918,9918,69410,29754,7.0,3.0
+Random QP,OSQP_builtin_direct,3,11177,11177,78219,33531,7.0,3.0
+Random QP,OSQP_builtin_direct,3,12596,12596,88154,37788,7.0,3.0
+Random QP,OSQP_builtin_direct,3,14195,14195,99345,42585,7.0,3.0
+Random QP,OSQP_builtin_direct,3,15997,15997,111967,47991,7.0,3.0
+Random QP,OSQP_builtin_direct,3,18028,18028,126170,54084,7.0,3.0
+Random QP,OSQP_builtin_direct,3,20316,20316,142204,60948,7.0,3.0
+Random QP,OSQP_builtin_direct,3,22895,22895,160261,68685,7.0,3.0
+Random QP,OSQP_builtin_direct,3,25802,25802,180590,77406,7.0,3.0
+Random QP,OSQP_builtin_direct,3,29077,29077,203517,87231,7.0,3.0
+Random QP,OSQP_builtin_direct,3,32768,32768,229358,98304,7.0,3.0
+Random QP,OSQP_builtin_direct,6,1024,1024,31310,6144,30.58,6.0
+Random QP,OSQP_builtin_direct,6,1154,1154,35354,6924,30.64,6.0
+Random QP,OSQP_builtin_direct,6,1300,1300,39844,7800,30.65,6.0
+Random QP,OSQP_builtin_direct,6,1466,1466,45024,8796,30.71,6.0
+Random QP,OSQP_builtin_direct,6,1652,1652,50776,9912,30.74,6.0
+Random QP,OSQP_builtin_direct,6,1861,1861,57243,11166,30.76,6.0
+Random QP,OSQP_builtin_direct,6,2098,2098,64612,12588,30.8,6.0
+Random QP,OSQP_builtin_direct,6,2364,2364,72790,14184,30.79,6.0
+Random QP,OSQP_builtin_direct,6,2664,2664,82148,15984,30.84,6.0
+Random QP,OSQP_builtin_direct,6,3002,3002,92608,18012,30.85,6.0
+Random QP,OSQP_builtin_direct,6,3383,3383,104451,20298,30.88,6.0
+Random QP,OSQP_builtin_direct,6,3813,3813,117741,22878,30.88,6.0
+Random QP,OSQP_builtin_direct,6,4297,4297,132715,25782,30.89,6.0
+Random QP,OSQP_builtin_direct,6,4842,4842,149598,29052,30.9,6.0
+Random QP,OSQP_builtin_direct,6,5457,5457,168653,32742,30.91,6.0
+Random QP,OSQP_builtin_direct,6,6149,6149,190163,36894,30.93,6.0
+Random QP,OSQP_builtin_direct,6,6930,6930,214364,41580,30.93,6.0
+Random QP,OSQP_builtin_direct,6,7810,7810,241676,46860,30.94,6.0
+Random QP,OSQP_builtin_direct,6,8801,8801,272407,52806,30.95,6.0
+Random QP,OSQP_builtin_direct,6,9918,9918,307032,59508,30.96,6.0
+Random QP,OSQP_builtin_direct,6,11177,11177,346029,67062,30.96,6.0
+Random QP,OSQP_builtin_direct,6,12596,12596,390036,75576,30.97,6.0
+Random QP,OSQP_builtin_direct,6,14195,14195,439583,85170,30.97,6.0
+Random QP,OSQP_builtin_direct,6,15997,15997,495459,95982,30.97,6.0
+Random QP,OSQP_builtin_direct,6,18028,18028,558410,108168,30.97,6.0
+Random QP,OSQP_builtin_direct,6,20316,20316,629330,121896,30.98,6.0
+Random QP,OSQP_builtin_direct,6,22895,22895,709315,137370,30.98,6.0
+Random QP,OSQP_builtin_direct,6,25802,25802,799402,154812,30.98,6.0
+Random QP,OSQP_builtin_direct,6,29077,29077,900925,174462,30.98,6.0
+Random QP,OSQP_builtin_direct,6,32768,32768,1015362,196608,30.99,6.0
+Eq QP,OSQP_builtin_direct,1,1024,512,1024,1024,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,1154,577,1154,1154,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,1300,650,1300,1300,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,1466,733,1466,1466,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,1652,826,1652,1652,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,1861,930,1861,1861,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,2098,1049,2098,2098,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,2364,1182,2364,2364,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,2664,1332,2664,2664,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,3002,1501,3002,3002,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,3383,1691,3383,3383,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,3813,1906,3813,3813,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,4297,2148,4297,4297,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,4842,2421,4842,4842,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,5457,2728,5457,5457,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,6149,3074,6149,6149,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,6930,3465,6930,6930,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,7810,3905,7810,7810,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,8801,4400,8801,8801,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,9918,4959,9918,9918,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,11177,5588,11177,11177,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,12596,6298,12596,12596,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,14195,7097,14195,14195,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,15997,7998,15997,15997,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,18028,9014,18028,18028,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,20316,10158,20316,20316,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,22895,11447,22895,22895,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,25802,12901,25802,25802,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,29077,14538,29077,29077,1.0,1.0
+Eq QP,OSQP_builtin_direct,1,32768,16384,32768,32768,1.0,1.0
+Eq QP,OSQP_builtin_direct,3,1024,512,7160,3072,6.99,3.0
+Eq QP,OSQP_builtin_direct,3,1154,577,8062,3462,6.99,3.0
+Eq QP,OSQP_builtin_direct,3,1300,650,9080,3900,6.98,3.0
+Eq QP,OSQP_builtin_direct,3,1466,733,10236,4398,6.98,3.0
+Eq QP,OSQP_builtin_direct,3,1652,826,11552,4956,6.99,3.0
+Eq QP,OSQP_builtin_direct,3,1861,930,13017,5583,6.99,3.0
+Eq QP,OSQP_builtin_direct,3,2098,1049,14668,6294,6.99,3.0
+Eq QP,OSQP_builtin_direct,3,2364,1182,16526,7092,6.99,3.0
+Eq QP,OSQP_builtin_direct,3,2664,1332,18638,7992,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,3002,1501,20998,9006,6.99,3.0
+Eq QP,OSQP_builtin_direct,3,3383,1691,23669,10149,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,3813,1906,26657,11439,6.99,3.0
+Eq QP,OSQP_builtin_direct,3,4297,2148,30067,12891,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,4842,2421,33878,14526,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,5457,2728,38181,16371,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,6149,3074,43027,18447,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,6930,3465,48484,20790,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,7810,3905,54650,23430,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,8801,4400,61587,26403,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,9918,4959,69398,29754,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,11177,5588,78217,33531,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,12596,6298,88152,37788,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,14195,7097,99347,42585,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,15997,7998,111969,47991,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,18028,9014,126182,54084,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,20316,10158,142196,60948,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,22895,11447,160241,68685,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,25802,12901,180588,77406,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,29077,14538,203519,87231,7.0,3.0
+Eq QP,OSQP_builtin_direct,3,32768,16384,229358,98304,7.0,3.0
+Eq QP,OSQP_builtin_direct,6,1024,512,31330,6144,30.6,6.0
+Eq QP,OSQP_builtin_direct,6,1154,577,35342,6924,30.63,6.0
+Eq QP,OSQP_builtin_direct,6,1300,650,39846,7800,30.65,6.0
+Eq QP,OSQP_builtin_direct,6,1466,733,45012,8796,30.7,6.0
+Eq QP,OSQP_builtin_direct,6,1652,826,50780,9912,30.74,6.0
+Eq QP,OSQP_builtin_direct,6,1861,930,57225,11166,30.75,6.0
+Eq QP,OSQP_builtin_direct,6,2098,1049,64628,12588,30.8,6.0
+Eq QP,OSQP_builtin_direct,6,2364,1182,72882,14184,30.83,6.0
+Eq QP,OSQP_builtin_direct,6,2664,1332,82120,15984,30.83,6.0
+Eq QP,OSQP_builtin_direct,6,3002,1501,92578,18012,30.84,6.0
+Eq QP,OSQP_builtin_direct,6,3383,1691,104371,20298,30.85,6.0
+Eq QP,OSQP_builtin_direct,6,3813,1906,117717,22878,30.87,6.0
+Eq QP,OSQP_builtin_direct,6,4297,2148,132789,25782,30.9,6.0
+Eq QP,OSQP_builtin_direct,6,4842,2421,149626,29052,30.9,6.0
+Eq QP,OSQP_builtin_direct,6,5457,2728,168717,32742,30.92,6.0
+Eq QP,OSQP_builtin_direct,6,6149,3074,190123,36894,30.92,6.0
+Eq QP,OSQP_builtin_direct,6,6930,3465,214390,41580,30.94,6.0
+Eq QP,OSQP_builtin_direct,6,7810,3905,241678,46860,30.94,6.0
+Eq QP,OSQP_builtin_direct,6,8801,4400,272371,52806,30.95,6.0
+Eq QP,OSQP_builtin_direct,6,9918,4959,307028,59508,30.96,6.0
+Eq QP,OSQP_builtin_direct,6,11177,5588,346035,67062,30.96,6.0
+Eq QP,OSQP_builtin_direct,6,12596,6298,390064,75576,30.97,6.0
+Eq QP,OSQP_builtin_direct,6,14195,7097,439615,85170,30.97,6.0
+Eq QP,OSQP_builtin_direct,6,15997,7998,495449,95982,30.97,6.0
+Eq QP,OSQP_builtin_direct,6,18028,9014,558384,108168,30.97,6.0
+Eq QP,OSQP_builtin_direct,6,20316,10158,629320,121896,30.98,6.0
+Eq QP,OSQP_builtin_direct,6,22895,11447,709271,137370,30.98,6.0
+Eq QP,OSQP_builtin_direct,6,25802,12901,799406,154812,30.98,6.0
+Eq QP,OSQP_builtin_direct,6,29077,14538,900943,174462,30.98,6.0
+Eq QP,OSQP_builtin_direct,6,32768,16384,1015364,196608,30.99,6.0
+Portfolio,OSQP_builtin_direct,1,1010,1011,1010,2020,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,1111,1112,1111,2222,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,1313,1314,1313,2626,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,1414,1415,1414,2828,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,1616,1617,1616,3232,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,1818,1819,1818,3636,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,2121,2122,2121,4242,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,2323,2324,2323,4646,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,2626,2627,2626,5252,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,2929,2930,2929,5858,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,3333,3334,3333,6666,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,3737,3738,3737,7474,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,4242,4243,4242,8484,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,4848,4849,4848,9696,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,5454,5455,5454,10908,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,6060,6061,6060,12120,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,6868,6869,6868,13736,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,7777,7778,7777,15554,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,8787,8788,8787,17574,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,9898,9899,9898,19796,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,11110,11111,11110,22220,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,12524,12525,12524,25048,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,14140,14141,14140,28280,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,15958,15959,15958,31916,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,17978,17979,17978,35956,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,20301,20302,20301,40602,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,22826,22827,22826,45652,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,25755,25756,25755,51510,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,28987,28988,28987,57974,1.0,2.0
+Portfolio,OSQP_builtin_direct,1,32724,32725,32724,65448,1.0,2.0
+Portfolio,OSQP_builtin_direct,3,1010,1011,1010,2040,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,1111,1112,1111,2244,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,1313,1314,1313,2652,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,1414,1415,1414,2856,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,1616,1617,1616,3264,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,1818,1819,1818,3672,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,2121,2122,2121,4284,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,2323,2324,2323,4692,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,2626,2627,2626,5304,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,2929,2930,2929,5916,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,3333,3334,3333,6732,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,3737,3738,3737,7548,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,4242,4243,4242,8568,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,4848,4849,4848,9792,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,5454,5455,5454,11016,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,6060,6061,6060,12240,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,6868,6869,6868,13872,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,7777,7778,7777,15708,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,8787,8788,8787,17748,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,9898,9899,9898,19992,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,11110,11111,11110,22440,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,12524,12525,12524,25296,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,14140,14141,14140,28560,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,15958,15959,15958,32232,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,17978,17979,17978,36312,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,20301,20302,20301,41004,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,22826,22827,22826,46104,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,25755,25756,25755,52020,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,28987,28988,28987,58548,1.0,2.02
+Portfolio,OSQP_builtin_direct,3,32724,32725,32724,66096,1.0,2.02
+Portfolio,OSQP_builtin_direct,6,1010,1011,1010,2070,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,1111,1112,1111,2277,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,1313,1314,1313,2691,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,1414,1415,1414,2898,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,1616,1617,1616,3312,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,1818,1819,1818,3726,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,2121,2122,2121,4347,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,2323,2324,2323,4761,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,2626,2627,2626,5382,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,2929,2930,2929,6003,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,3333,3334,3333,6831,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,3737,3738,3737,7659,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,4242,4243,4242,8694,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,4848,4849,4848,9936,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,5454,5455,5454,11178,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,6060,6061,6060,12420,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,6868,6869,6868,14076,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,7777,7778,7777,15939,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,8787,8788,8787,18009,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,9898,9899,9898,20286,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,11110,11111,11110,22770,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,12524,12525,12524,25668,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,14140,14141,14140,28980,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,15958,15959,15958,32706,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,17978,17979,17978,36846,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,20301,20302,20301,41607,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,22826,22827,22826,46782,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,25755,25756,25755,52785,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,28987,28988,28987,59409,1.0,2.05
+Portfolio,OSQP_builtin_direct,6,32724,32725,32724,67068,1.0,2.05
+Lasso,OSQP_builtin_direct,1,1020,1020,1000,1050,0.98,1.03
+Lasso,OSQP_builtin_direct,1,1122,1122,1100,1155,0.98,1.03
+Lasso,OSQP_builtin_direct,1,1326,1326,1300,1365,0.98,1.03
+Lasso,OSQP_builtin_direct,1,1428,1428,1400,1470,0.98,1.03
+Lasso,OSQP_builtin_direct,1,1632,1632,1600,1680,0.98,1.03
+Lasso,OSQP_builtin_direct,1,1836,1836,1800,1890,0.98,1.03
+Lasso,OSQP_builtin_direct,1,2040,2040,2000,2100,0.98,1.03
+Lasso,OSQP_builtin_direct,1,2346,2346,2300,2415,0.98,1.03
+Lasso,OSQP_builtin_direct,1,2652,2652,2600,2730,0.98,1.03
+Lasso,OSQP_builtin_direct,1,2958,2958,2900,3045,0.98,1.03
+Lasso,OSQP_builtin_direct,1,3366,3366,3300,3465,0.98,1.03
+Lasso,OSQP_builtin_direct,1,3774,3774,3700,3885,0.98,1.03
+Lasso,OSQP_builtin_direct,1,4284,4284,4200,4410,0.98,1.03
+Lasso,OSQP_builtin_direct,1,4794,4794,4700,4935,0.98,1.03
+Lasso,OSQP_builtin_direct,1,5406,5406,5300,5565,0.98,1.03
+Lasso,OSQP_builtin_direct,1,6120,6120,6000,6300,0.98,1.03
+Lasso,OSQP_builtin_direct,1,6936,6936,6800,7140,0.98,1.03
+Lasso,OSQP_builtin_direct,1,7752,7752,7600,7980,0.98,1.03
+Lasso,OSQP_builtin_direct,1,8772,8772,8600,9030,0.98,1.03
+Lasso,OSQP_builtin_direct,1,9894,9894,9700,10185,0.98,1.03
+Lasso,OSQP_builtin_direct,1,11118,11118,10900,11445,0.98,1.03
+Lasso,OSQP_builtin_direct,1,12546,12546,12300,12915,0.98,1.03
+Lasso,OSQP_builtin_direct,1,14178,14178,13900,14595,0.98,1.03
+Lasso,OSQP_builtin_direct,1,16014,16014,15700,16485,0.98,1.03
+Lasso,OSQP_builtin_direct,1,18054,18054,17700,18585,0.98,1.03
+Lasso,OSQP_builtin_direct,1,20298,20298,19900,20895,0.98,1.03
+Lasso,OSQP_builtin_direct,1,22848,22848,22400,23520,0.98,1.03
+Lasso,OSQP_builtin_direct,1,25806,25806,25300,26565,0.98,1.03
+Lasso,OSQP_builtin_direct,1,29070,29070,28500,29925,0.98,1.03
+Lasso,OSQP_builtin_direct,1,32742,32742,32100,33705,0.98,1.03
+Lasso,OSQP_builtin_direct,3,1020,1020,1000,1070,0.98,1.05
+Lasso,OSQP_builtin_direct,3,1122,1122,1100,1177,0.98,1.05
+Lasso,OSQP_builtin_direct,3,1326,1326,1300,1391,0.98,1.05
+Lasso,OSQP_builtin_direct,3,1428,1428,1400,1498,0.98,1.05
+Lasso,OSQP_builtin_direct,3,1632,1632,1600,1712,0.98,1.05
+Lasso,OSQP_builtin_direct,3,1836,1836,1800,1926,0.98,1.05
+Lasso,OSQP_builtin_direct,3,2040,2040,2000,2140,0.98,1.05
+Lasso,OSQP_builtin_direct,3,2346,2346,2300,2461,0.98,1.05
+Lasso,OSQP_builtin_direct,3,2652,2652,2600,2782,0.98,1.05
+Lasso,OSQP_builtin_direct,3,2958,2958,2900,3103,0.98,1.05
+Lasso,OSQP_builtin_direct,3,3366,3366,3300,3531,0.98,1.05
+Lasso,OSQP_builtin_direct,3,3774,3774,3700,3959,0.98,1.05
+Lasso,OSQP_builtin_direct,3,4284,4284,4200,4494,0.98,1.05
+Lasso,OSQP_builtin_direct,3,4794,4794,4700,5029,0.98,1.05
+Lasso,OSQP_builtin_direct,3,5406,5406,5300,5671,0.98,1.05
+Lasso,OSQP_builtin_direct,3,6120,6120,6000,6420,0.98,1.05
+Lasso,OSQP_builtin_direct,3,6936,6936,6800,7276,0.98,1.05
+Lasso,OSQP_builtin_direct,3,7752,7752,7600,8132,0.98,1.05
+Lasso,OSQP_builtin_direct,3,8772,8772,8600,9202,0.98,1.05
+Lasso,OSQP_builtin_direct,3,9894,9894,9700,10379,0.98,1.05
+Lasso,OSQP_builtin_direct,3,11118,11118,10900,11663,0.98,1.05
+Lasso,OSQP_builtin_direct,3,12546,12546,12300,13161,0.98,1.05
+Lasso,OSQP_builtin_direct,3,14178,14178,13900,14873,0.98,1.05
+Lasso,OSQP_builtin_direct,3,16014,16014,15700,16799,0.98,1.05
+Lasso,OSQP_builtin_direct,3,18054,18054,17700,18939,0.98,1.05
+Lasso,OSQP_builtin_direct,3,20298,20298,19900,21293,0.98,1.05
+Lasso,OSQP_builtin_direct,3,22848,22848,22400,23968,0.98,1.05
+Lasso,OSQP_builtin_direct,3,25806,25806,25300,27071,0.98,1.05
+Lasso,OSQP_builtin_direct,3,29070,29070,28500,30495,0.98,1.05
+Lasso,OSQP_builtin_direct,3,32742,32742,32100,34347,0.98,1.05
+Lasso,OSQP_builtin_direct,6,1020,1020,1000,1100,0.98,1.08
+Lasso,OSQP_builtin_direct,6,1122,1122,1100,1210,0.98,1.08
+Lasso,OSQP_builtin_direct,6,1326,1326,1300,1430,0.98,1.08
+Lasso,OSQP_builtin_direct,6,1428,1428,1400,1540,0.98,1.08
+Lasso,OSQP_builtin_direct,6,1632,1632,1600,1760,0.98,1.08
+Lasso,OSQP_builtin_direct,6,1836,1836,1800,1980,0.98,1.08
+Lasso,OSQP_builtin_direct,6,2040,2040,2000,2200,0.98,1.08
+Lasso,OSQP_builtin_direct,6,2346,2346,2300,2530,0.98,1.08
+Lasso,OSQP_builtin_direct,6,2652,2652,2600,2860,0.98,1.08
+Lasso,OSQP_builtin_direct,6,2958,2958,2900,3190,0.98,1.08
+Lasso,OSQP_builtin_direct,6,3366,3366,3300,3630,0.98,1.08
+Lasso,OSQP_builtin_direct,6,3774,3774,3700,4070,0.98,1.08
+Lasso,OSQP_builtin_direct,6,4284,4284,4200,4620,0.98,1.08
+Lasso,OSQP_builtin_direct,6,4794,4794,4700,5170,0.98,1.08
+Lasso,OSQP_builtin_direct,6,5406,5406,5300,5830,0.98,1.08
+Lasso,OSQP_builtin_direct,6,6120,6120,6000,6600,0.98,1.08
+Lasso,OSQP_builtin_direct,6,6936,6936,6800,7480,0.98,1.08
+Lasso,OSQP_builtin_direct,6,7752,7752,7600,8360,0.98,1.08
+Lasso,OSQP_builtin_direct,6,8772,8772,8600,9460,0.98,1.08
+Lasso,OSQP_builtin_direct,6,9894,9894,9700,10670,0.98,1.08
+Lasso,OSQP_builtin_direct,6,11118,11118,10900,11990,0.98,1.08
+Lasso,OSQP_builtin_direct,6,12546,12546,12300,13530,0.98,1.08
+Lasso,OSQP_builtin_direct,6,14178,14178,13900,15290,0.98,1.08
+Lasso,OSQP_builtin_direct,6,16014,16014,15700,17270,0.98,1.08
+Lasso,OSQP_builtin_direct,6,18054,18054,17700,19470,0.98,1.08
+Lasso,OSQP_builtin_direct,6,20298,20298,19900,21890,0.98,1.08
+Lasso,OSQP_builtin_direct,6,22848,22848,22400,24640,0.98,1.08
+Lasso,OSQP_builtin_direct,6,25806,25806,25300,27830,0.98,1.08
+Lasso,OSQP_builtin_direct,6,29070,29070,28500,31350,0.98,1.08
+Lasso,OSQP_builtin_direct,6,32742,32742,32100,35310,0.98,1.08
+SVM,OSQP_builtin_direct,1,1010,2000,10,2020,0.01,2.0
+SVM,OSQP_builtin_direct,1,1111,2200,11,2222,0.01,2.0
+SVM,OSQP_builtin_direct,1,1212,2400,12,2424,0.01,2.0
+SVM,OSQP_builtin_direct,1,1313,2600,13,2626,0.01,2.0
+SVM,OSQP_builtin_direct,1,1515,3000,15,3030,0.01,2.0
+SVM,OSQP_builtin_direct,1,1616,3200,16,3232,0.01,2.0
+SVM,OSQP_builtin_direct,1,1818,3600,18,3636,0.01,2.0
+SVM,OSQP_builtin_direct,1,2020,4000,20,4040,0.01,2.0
+SVM,OSQP_builtin_direct,1,2222,4400,22,4444,0.01,2.0
+SVM,OSQP_builtin_direct,1,2424,4800,24,4848,0.01,2.0
+SVM,OSQP_builtin_direct,1,2626,5200,26,5252,0.01,2.0
+SVM,OSQP_builtin_direct,1,2929,5800,29,5858,0.01,2.0
+SVM,OSQP_builtin_direct,1,3232,6400,32,6464,0.01,2.0
+SVM,OSQP_builtin_direct,1,3535,7000,35,7070,0.01,2.0
+SVM,OSQP_builtin_direct,1,3838,7600,38,7676,0.01,2.0
+SVM,OSQP_builtin_direct,1,4242,8400,42,8484,0.01,2.0
+SVM,OSQP_builtin_direct,1,4747,9400,47,9494,0.01,2.0
+SVM,OSQP_builtin_direct,1,5151,10200,51,10302,0.01,2.0
+SVM,OSQP_builtin_direct,1,5757,11400,57,11514,0.01,2.0
+SVM,OSQP_builtin_direct,1,6262,12400,62,12524,0.01,2.0
+SVM,OSQP_builtin_direct,1,6969,13800,69,13938,0.01,2.0
+SVM,OSQP_builtin_direct,1,7575,15000,75,15150,0.01,2.0
+SVM,OSQP_builtin_direct,1,8383,16600,83,16766,0.01,2.0
+SVM,OSQP_builtin_direct,1,9191,18200,91,18382,0.01,2.0
+SVM,OSQP_builtin_direct,1,10201,20200,101,20402,0.01,2.0
+SVM,OSQP_builtin_direct,1,11211,22200,111,22422,0.01,2.0
+SVM,OSQP_builtin_direct,1,12322,24400,122,24644,0.01,2.0
+SVM,OSQP_builtin_direct,1,13534,26800,134,27068,0.01,2.0
+SVM,OSQP_builtin_direct,1,14948,29600,148,29896,0.01,2.0
+SVM,OSQP_builtin_direct,1,16463,32600,163,32926,0.01,2.0
+SVM,OSQP_builtin_direct,3,1010,2000,10,2060,0.01,2.04
+SVM,OSQP_builtin_direct,3,1111,2200,11,2266,0.01,2.04
+SVM,OSQP_builtin_direct,3,1212,2400,12,2472,0.01,2.04
+SVM,OSQP_builtin_direct,3,1313,2600,13,2678,0.01,2.04
+SVM,OSQP_builtin_direct,3,1515,3000,15,3090,0.01,2.04
+SVM,OSQP_builtin_direct,3,1616,3200,16,3296,0.01,2.04
+SVM,OSQP_builtin_direct,3,1818,3600,18,3708,0.01,2.04
+SVM,OSQP_builtin_direct,3,2020,4000,20,4120,0.01,2.04
+SVM,OSQP_builtin_direct,3,2222,4400,22,4532,0.01,2.04
+SVM,OSQP_builtin_direct,3,2424,4800,24,4944,0.01,2.04
+SVM,OSQP_builtin_direct,3,2626,5200,26,5356,0.01,2.04
+SVM,OSQP_builtin_direct,3,2929,5800,29,5974,0.01,2.04
+SVM,OSQP_builtin_direct,3,3232,6400,32,6592,0.01,2.04
+SVM,OSQP_builtin_direct,3,3535,7000,35,7210,0.01,2.04
+SVM,OSQP_builtin_direct,3,3838,7600,38,7828,0.01,2.04
+SVM,OSQP_builtin_direct,3,4242,8400,42,8652,0.01,2.04
+SVM,OSQP_builtin_direct,3,4747,9400,47,9682,0.01,2.04
+SVM,OSQP_builtin_direct,3,5151,10200,51,10506,0.01,2.04
+SVM,OSQP_builtin_direct,3,5757,11400,57,11742,0.01,2.04
+SVM,OSQP_builtin_direct,3,6262,12400,62,12772,0.01,2.04
+SVM,OSQP_builtin_direct,3,6969,13800,69,14214,0.01,2.04
+SVM,OSQP_builtin_direct,3,7575,15000,75,15450,0.01,2.04
+SVM,OSQP_builtin_direct,3,8383,16600,83,17098,0.01,2.04
+SVM,OSQP_builtin_direct,3,9191,18200,91,18746,0.01,2.04
+SVM,OSQP_builtin_direct,3,10201,20200,101,20806,0.01,2.04
+SVM,OSQP_builtin_direct,3,11211,22200,111,22866,0.01,2.04
+SVM,OSQP_builtin_direct,3,12322,24400,122,25132,0.01,2.04
+SVM,OSQP_builtin_direct,3,13534,26800,134,27604,0.01,2.04
+SVM,OSQP_builtin_direct,3,14948,29600,148,30488,0.01,2.04
+SVM,OSQP_builtin_direct,3,16463,32600,163,33578,0.01,2.04
+SVM,OSQP_builtin_direct,6,1010,2000,10,2120,0.01,2.1
+SVM,OSQP_builtin_direct,6,1111,2200,11,2332,0.01,2.1
+SVM,OSQP_builtin_direct,6,1212,2400,12,2544,0.01,2.1
+SVM,OSQP_builtin_direct,6,1313,2600,13,2756,0.01,2.1
+SVM,OSQP_builtin_direct,6,1515,3000,15,3180,0.01,2.1
+SVM,OSQP_builtin_direct,6,1616,3200,16,3392,0.01,2.1
+SVM,OSQP_builtin_direct,6,1818,3600,18,3816,0.01,2.1
+SVM,OSQP_builtin_direct,6,2020,4000,20,4240,0.01,2.1
+SVM,OSQP_builtin_direct,6,2222,4400,22,4664,0.01,2.1
+SVM,OSQP_builtin_direct,6,2424,4800,24,5088,0.01,2.1
+SVM,OSQP_builtin_direct,6,2626,5200,26,5512,0.01,2.1
+SVM,OSQP_builtin_direct,6,2929,5800,29,6148,0.01,2.1
+SVM,OSQP_builtin_direct,6,3232,6400,32,6784,0.01,2.1
+SVM,OSQP_builtin_direct,6,3535,7000,35,7420,0.01,2.1
+SVM,OSQP_builtin_direct,6,3838,7600,38,8056,0.01,2.1
+SVM,OSQP_builtin_direct,6,4242,8400,42,8904,0.01,2.1
+SVM,OSQP_builtin_direct,6,4747,9400,47,9964,0.01,2.1
+SVM,OSQP_builtin_direct,6,5151,10200,51,10812,0.01,2.1
+SVM,OSQP_builtin_direct,6,5757,11400,57,12084,0.01,2.1
+SVM,OSQP_builtin_direct,6,6262,12400,62,13144,0.01,2.1
+SVM,OSQP_builtin_direct,6,6969,13800,69,14628,0.01,2.1
+SVM,OSQP_builtin_direct,6,7575,15000,75,15900,0.01,2.1
+SVM,OSQP_builtin_direct,6,8383,16600,83,17596,0.01,2.1
+SVM,OSQP_builtin_direct,6,9191,18200,91,19292,0.01,2.1
+SVM,OSQP_builtin_direct,6,10201,20200,101,21412,0.01,2.1
+SVM,OSQP_builtin_direct,6,11211,22200,111,23532,0.01,2.1
+SVM,OSQP_builtin_direct,6,12322,24400,122,25864,0.01,2.1
+SVM,OSQP_builtin_direct,6,13534,26800,134,28408,0.01,2.1
+SVM,OSQP_builtin_direct,6,14948,29600,148,31376,0.01,2.1
+SVM,OSQP_builtin_direct,6,16463,32600,163,34556,0.01,2.1
+Huber,OSQP_builtin_direct,1,3010,3000,1000,5010,0.33,1.66
+Huber,OSQP_builtin_direct,1,3311,3300,1100,5511,0.33,1.66
+Huber,OSQP_builtin_direct,1,3612,3600,1200,6012,0.33,1.66
+Huber,OSQP_builtin_direct,1,3913,3900,1300,6513,0.33,1.66
+Huber,OSQP_builtin_direct,1,4214,4200,1400,7014,0.33,1.66
+Huber,OSQP_builtin_direct,1,4515,4500,1500,7515,0.33,1.66
+Huber,OSQP_builtin_direct,1,4816,4800,1600,8016,0.33,1.66
+Huber,OSQP_builtin_direct,1,5418,5400,1800,9018,0.33,1.66
+Huber,OSQP_builtin_direct,1,5719,5700,1900,9519,0.33,1.66
+Huber,OSQP_builtin_direct,1,6321,6300,2100,10521,0.33,1.66
+Huber,OSQP_builtin_direct,1,6923,6900,2300,11523,0.33,1.66
+Huber,OSQP_builtin_direct,1,7525,7500,2500,12525,0.33,1.66
+Huber,OSQP_builtin_direct,1,8127,8100,2700,13527,0.33,1.66
+Huber,OSQP_builtin_direct,1,8729,8700,2900,14529,0.33,1.66
+Huber,OSQP_builtin_direct,1,9632,9600,3200,16032,0.33,1.66
+Huber,OSQP_builtin_direct,1,10234,10200,3400,17034,0.33,1.66
+Huber,OSQP_builtin_direct,1,11137,11100,3700,18537,0.33,1.66
+Huber,OSQP_builtin_direct,1,12040,12000,4000,20040,0.33,1.66
+Huber,OSQP_builtin_direct,1,13244,13200,4400,22044,0.33,1.66
+Huber,OSQP_builtin_direct,1,14448,14400,4800,24048,0.33,1.66
+Huber,OSQP_builtin_direct,1,15652,15600,5200,26052,0.33,1.66
+Huber,OSQP_builtin_direct,1,16856,16800,5600,28056,0.33,1.66
+Huber,OSQP_builtin_direct,1,18361,18300,6100,30561,0.33,1.66
+Huber,OSQP_builtin_direct,1,19866,19800,6600,33066,0.33,1.66
+Huber,OSQP_builtin_direct,1,21672,21600,7200,36072,0.33,1.66
+Huber,OSQP_builtin_direct,1,23478,23400,7800,39078,0.33,1.66
+Huber,OSQP_builtin_direct,1,25284,25200,8400,42084,0.33,1.66
+Huber,OSQP_builtin_direct,1,27692,27600,9200,46092,0.33,1.66
+Huber,OSQP_builtin_direct,1,29799,29700,9900,49599,0.33,1.66
+Huber,OSQP_builtin_direct,1,32508,32400,10800,54108,0.33,1.66
+Huber,OSQP_builtin_direct,3,3010,3000,1000,5030,0.33,1.67
+Huber,OSQP_builtin_direct,3,3311,3300,1100,5533,0.33,1.67
+Huber,OSQP_builtin_direct,3,3612,3600,1200,6036,0.33,1.67
+Huber,OSQP_builtin_direct,3,3913,3900,1300,6539,0.33,1.67
+Huber,OSQP_builtin_direct,3,4214,4200,1400,7042,0.33,1.67
+Huber,OSQP_builtin_direct,3,4515,4500,1500,7545,0.33,1.67
+Huber,OSQP_builtin_direct,3,4816,4800,1600,8048,0.33,1.67
+Huber,OSQP_builtin_direct,3,5418,5400,1800,9054,0.33,1.67
+Huber,OSQP_builtin_direct,3,5719,5700,1900,9557,0.33,1.67
+Huber,OSQP_builtin_direct,3,6321,6300,2100,10563,0.33,1.67
+Huber,OSQP_builtin_direct,3,6923,6900,2300,11569,0.33,1.67
+Huber,OSQP_builtin_direct,3,7525,7500,2500,12575,0.33,1.67
+Huber,OSQP_builtin_direct,3,8127,8100,2700,13581,0.33,1.67
+Huber,OSQP_builtin_direct,3,8729,8700,2900,14587,0.33,1.67
+Huber,OSQP_builtin_direct,3,9632,9600,3200,16096,0.33,1.67
+Huber,OSQP_builtin_direct,3,10234,10200,3400,17102,0.33,1.67
+Huber,OSQP_builtin_direct,3,11137,11100,3700,18611,0.33,1.67
+Huber,OSQP_builtin_direct,3,12040,12000,4000,20120,0.33,1.67
+Huber,OSQP_builtin_direct,3,13244,13200,4400,22132,0.33,1.67
+Huber,OSQP_builtin_direct,3,14448,14400,4800,24144,0.33,1.67
+Huber,OSQP_builtin_direct,3,15652,15600,5200,26156,0.33,1.67
+Huber,OSQP_builtin_direct,3,16856,16800,5600,28168,0.33,1.67
+Huber,OSQP_builtin_direct,3,18361,18300,6100,30683,0.33,1.67
+Huber,OSQP_builtin_direct,3,19866,19800,6600,33198,0.33,1.67
+Huber,OSQP_builtin_direct,3,21672,21600,7200,36216,0.33,1.67
+Huber,OSQP_builtin_direct,3,23478,23400,7800,39234,0.33,1.67
+Huber,OSQP_builtin_direct,3,25284,25200,8400,42252,0.33,1.67
+Huber,OSQP_builtin_direct,3,27692,27600,9200,46276,0.33,1.67
+Huber,OSQP_builtin_direct,3,29799,29700,9900,49797,0.33,1.67
+Huber,OSQP_builtin_direct,3,32508,32400,10800,54324,0.33,1.67
+Huber,OSQP_builtin_direct,6,3010,3000,1000,5060,0.33,1.68
+Huber,OSQP_builtin_direct,6,3311,3300,1100,5566,0.33,1.68
+Huber,OSQP_builtin_direct,6,3612,3600,1200,6072,0.33,1.68
+Huber,OSQP_builtin_direct,6,3913,3900,1300,6578,0.33,1.68
+Huber,OSQP_builtin_direct,6,4214,4200,1400,7084,0.33,1.68
+Huber,OSQP_builtin_direct,6,4515,4500,1500,7590,0.33,1.68
+Huber,OSQP_builtin_direct,6,4816,4800,1600,8096,0.33,1.68
+Huber,OSQP_builtin_direct,6,5418,5400,1800,9108,0.33,1.68
+Huber,OSQP_builtin_direct,6,5719,5700,1900,9614,0.33,1.68
+Huber,OSQP_builtin_direct,6,6321,6300,2100,10626,0.33,1.68
+Huber,OSQP_builtin_direct,6,6923,6900,2300,11638,0.33,1.68
+Huber,OSQP_builtin_direct,6,7525,7500,2500,12650,0.33,1.68
+Huber,OSQP_builtin_direct,6,8127,8100,2700,13662,0.33,1.68
+Huber,OSQP_builtin_direct,6,8729,8700,2900,14674,0.33,1.68
+Huber,OSQP_builtin_direct,6,9632,9600,3200,16192,0.33,1.68
+Huber,OSQP_builtin_direct,6,10234,10200,3400,17204,0.33,1.68
+Huber,OSQP_builtin_direct,6,11137,11100,3700,18722,0.33,1.68
+Huber,OSQP_builtin_direct,6,12040,12000,4000,20240,0.33,1.68
+Huber,OSQP_builtin_direct,6,13244,13200,4400,22264,0.33,1.68
+Huber,OSQP_builtin_direct,6,14448,14400,4800,24288,0.33,1.68
+Huber,OSQP_builtin_direct,6,15652,15600,5200,26312,0.33,1.68
+Huber,OSQP_builtin_direct,6,16856,16800,5600,28336,0.33,1.68
+Huber,OSQP_builtin_direct,6,18361,18300,6100,30866,0.33,1.68
+Huber,OSQP_builtin_direct,6,19866,19800,6600,33396,0.33,1.68
+Huber,OSQP_builtin_direct,6,21672,21600,7200,36432,0.33,1.68
+Huber,OSQP_builtin_direct,6,23478,23400,7800,39468,0.33,1.68
+Huber,OSQP_builtin_direct,6,25284,25200,8400,42504,0.33,1.68
+Huber,OSQP_builtin_direct,6,27692,27600,9200,46552,0.33,1.68
+Huber,OSQP_builtin_direct,6,29799,29700,9900,50094,0.33,1.68
+Huber,OSQP_builtin_direct,6,32508,32400,10800,54648,0.33,1.68
+Control,OSQP_builtin_direct,1,608,1026,608,3106,1.0,5.11
+Control,OSQP_builtin_direct,1,683,1156,683,3376,1.0,4.94
+Control,OSQP_builtin_direct,1,768,1296,768,4116,1.0,5.36
+Control,OSQP_builtin_direct,1,864,1458,864,4018,1.0,4.65
+Control,OSQP_builtin_direct,1,971,1642,971,6762,1.0,6.96
+Control,OSQP_builtin_direct,1,1099,1858,1099,6218,1.0,5.66
+Control,OSQP_builtin_direct,1,1248,2106,1248,6626,1.0,5.31
+Control,OSQP_builtin_direct,1,1408,2376,1408,8066,1.0,5.73
+Control,OSQP_builtin_direct,1,1579,2668,1579,9458,1.0,5.99
+Control,OSQP_builtin_direct,1,1771,2992,1771,11322,1.0,6.39
+Control,OSQP_builtin_direct,1,1995,3370,1995,9990,1.0,5.01
+Control,OSQP_builtin_direct,1,2251,3802,2251,9902,1.0,4.4
+Control,OSQP_builtin_direct,1,2539,4288,2539,16498,1.0,6.5
+Control,OSQP_builtin_direct,1,2859,4828,2859,22528,1.0,7.88
+Control,OSQP_builtin_direct,1,3232,5454,3232,28964,1.0,8.96
+Control,OSQP_builtin_direct,1,3648,6156,3648,25586,1.0,7.01
+Control,OSQP_builtin_direct,1,4107,6934,4107,40204,1.0,9.79
+Control,OSQP_builtin_direct,1,4619,7798,4619,30728,1.0,6.65
+Control,OSQP_builtin_direct,1,5216,8802,5216,46322,1.0,8.88
+Control,OSQP_builtin_direct,1,5867,9904,5867,63694,1.0,10.86
+Control,OSQP_builtin_direct,1,6624,11178,6624,90308,1.0,13.63
+Control,OSQP_builtin_direct,1,7467,12604,7467,56224,1.0,7.53
+Control,OSQP_builtin_direct,1,8416,14202,8416,42992,1.0,5.11
+Control,OSQP_builtin_direct,1,9472,15984,9472,59174,1.0,6.25
+Control,OSQP_builtin_direct,1,10688,18036,10688,62756,1.0,5.87
+Control,OSQP_builtin_direct,1,13568,22896,13568,114496,1.0,8.44
+Control,OSQP_builtin_direct,1,15275,25780,15275,73070,1.0,4.78
+Control,OSQP_builtin_direct,1,19403,32746,19403,534866,1.0,27.57
+Control,OSQP_builtin_direct,3,608,1026,608,14956,1.0,24.6
+Control,OSQP_builtin_direct,3,683,1156,683,16706,1.0,24.46
+Control,OSQP_builtin_direct,3,768,1296,3024,24116,3.94,31.4
+Control,OSQP_builtin_direct,3,864,1458,3726,30898,4.31,35.76
+Control,OSQP_builtin_direct,3,971,1642,971,31862,1.0,32.81
+Control,OSQP_builtin_direct,3,1099,1858,5791,47128,5.27,42.88
+Control,OSQP_builtin_direct,3,1248,2106,7254,61066,5.81,48.93
+Control,OSQP_builtin_direct,3,1408,2376,1408,70246,1.0,49.89
+Control,OSQP_builtin_direct,3,1579,2668,1579,91668,1.0,58.05
+Control,OSQP_builtin_direct,3,1771,2992,1771,116042,1.0,65.52
+Control,OSQP_builtin_direct,3,1995,3370,1995,138900,1.0,69.62
+Control,OSQP_builtin_direct,3,2251,3802,2251,193552,1.0,85.98
+Control,OSQP_builtin_direct,3,2539,4288,2539,228528,1.0,90.01
+Control,OSQP_builtin_direct,3,2859,4828,2859,294778,1.0,103.11
+Control,OSQP_builtin_direct,3,3232,5454,3232,361974,1.0,112.0
+Control,OSQP_builtin_direct,3,3648,6156,3648,435436,1.0,119.36
+Control,OSQP_builtin_direct,3,4107,6934,4107,591674,1.0,144.06
+Control,OSQP_builtin_direct,3,4619,7798,4619,752048,1.0,162.82
+Control,OSQP_builtin_direct,3,5216,8802,5216,984592,1.0,188.76
+Control,OSQP_builtin_direct,3,5867,9904,5867,1232174,1.0,210.02
+Control,OSQP_builtin_direct,3,6624,11178,6624,1468558,1.0,221.7
+Control,OSQP_builtin_direct,3,7467,12604,7467,1995644,1.0,267.26
+Control,OSQP_builtin_direct,3,8416,14202,8416,2496612,1.0,296.65
+Control,OSQP_builtin_direct,3,9472,15984,9472,3170924,1.0,334.77
+Control,OSQP_builtin_direct,3,10688,18036,10688,3781116,1.0,353.77
+Control,OSQP_builtin_direct,3,12032,20304,12032,5004274,1.0,415.91
+Control,OSQP_builtin_direct,3,13568,22896,13568,6470296,1.0,476.88
+Control,OSQP_builtin_direct,3,15275,25780,15275,8018400,1.0,524.94
+Control,OSQP_builtin_direct,3,17216,29052,17216,10550512,1.0,612.83
+Control,OSQP_builtin_direct,3,19403,32746,19403,12908156,1.0,665.27
+Control,OSQP_builtin_direct,6,608,1026,2014,16606,3.31,27.31
+Control,OSQP_builtin_direct,6,683,1156,2489,20906,3.64,30.61
+Control,OSQP_builtin_direct,6,768,1296,3024,25776,3.94,33.56
+Control,OSQP_builtin_direct,6,864,1458,3726,32238,4.31,37.31
+Control,OSQP_builtin_direct,6,971,1642,4631,40652,4.77,41.87
+Control,OSQP_builtin_direct,6,1099,1858,5791,51508,5.27,46.87
+Control,OSQP_builtin_direct,6,1248,2106,7254,65286,5.81,52.31
+Control,OSQP_builtin_direct,6,1408,2376,9064,82456,6.44,58.56
+Control,OSQP_builtin_direct,6,1579,2668,11281,103618,7.14,65.62
+Control,OSQP_builtin_direct,6,1771,2992,13981,129502,7.89,73.12
+Control,OSQP_builtin_direct,6,1995,3370,17495,163340,8.77,81.87
+Control,OSQP_builtin_direct,6,2251,3802,21991,205412,9.77,91.25
+Control,OSQP_builtin_direct,6,2539,4288,27661,261838,10.89,103.13
+Control,OSQP_builtin_direct,6,2859,4828,34721,328798,12.14,115.0
+Control,OSQP_builtin_direct,6,3232,5454,43834,417544,13.56,129.19
+Control,OSQP_builtin_direct,6,3648,6156,55404,532836,15.19,146.06
+Control,OSQP_builtin_direct,6,4107,6934,69899,672544,17.02,163.76
+Control,OSQP_builtin_direct,6,4619,7798,87851,845888,19.02,183.13
+Control,OSQP_builtin_direct,6,5216,8802,111166,1074842,21.31,206.07
+Control,OSQP_builtin_direct,6,5867,9904,140189,1360464,23.89,231.88
+Control,OSQP_builtin_direct,6,6624,11178,177606,1737558,26.81,262.31
+Control,OSQP_builtin_direct,6,7467,12604,225089,2207474,30.14,295.63
+Control,OSQP_builtin_direct,6,8416,14202,284566,2775782,33.81,329.82
+Control,OSQP_builtin_direct,6,9472,15984,359344,3520674,37.94,371.69
+Control,OSQP_builtin_direct,6,10688,18036,456244,4500316,42.69,421.06
+Control,OSQP_builtin_direct,6,12032,20304,576784,5660394,47.94,470.44
+Control,OSQP_builtin_direct,6,13568,22896,731824,7213986,53.94,531.69
+Control,OSQP_builtin_direct,6,15275,25780,926345,9098450,60.64,595.64
+Control,OSQP_builtin_direct,6,17216,29052,1173916,11596132,68.19,673.57
+Control,OSQP_builtin_direct,6,19403,32746,1489559,14698046,76.77,757.51

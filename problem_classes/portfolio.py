@@ -9,8 +9,7 @@ class PortfolioExample(object):
     '''
     Portfolio QP example
     '''
-    def __init__(self, k, seed=1, n=None, min_nnz_per_col=1,
-                 max_nnz_per_col=5, build_cvxpy=True):
+    def __init__(self, k, seed=1, n=None, nnz_per_col=None, build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
@@ -23,8 +22,11 @@ class PortfolioExample(object):
         else:
             self.n = int(n)
 
+        if nnz_per_col is None:
+            nnz_per_col = 5
+
         # Generate data
-        self.F = random_sparse_nnz_per_col(self.n, self.k, min_nnz_per_col, max_nnz_per_col,
+        self.F = random_sparse_nnz_per_col(self.n, self.k, nnz_per_col,
                             data_rvs=np.random.randn,
                             format='csc')
         self.D = spa.diags(np.random.rand(self.n) *

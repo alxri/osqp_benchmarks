@@ -8,8 +8,7 @@ class ControlExample(object):
     '''
     Control QP example
     '''
-    def __init__(self, n, seed=1, min_nnz_per_col=1, max_nnz_per_col=5,
-                 build_cvxpy=True):
+    def __init__(self, n, seed=1, nnz_per_col=None, build_cvxpy=True):
         '''
         Generate problem in QP format and CVXPY format
         '''
@@ -20,8 +19,13 @@ class ControlExample(object):
         self.nx = int(n)       # States
         self.nu = int(n / 2)   # Inputs
 
+        if nnz_per_col is None:
+            nnz_per_col = 5
+            
+        density_frac = min(1.0, nnz_per_col / self.nx)
+
         self.A = spa.eye(self.nx) + .1 * spa.random(self.nx, self.nx,
-                                                    density=1.0,
+                                                    density=density_frac,
                                                     data_rvs=np.random.randn)
 
         # Restrict eigenvalues of A to be less than 1
@@ -39,21 +43,23 @@ class ControlExample(object):
             V.dot(np.diag(lambda_values)).dot(np.linalg.inv(V)).real
             )
 
-        self.B = spa.random(self.nx, self.nu, density=1.0,
+        self.B = spa.random(self.nx, self.nu, density=density_frac,
                             data_rvs=np.random.randn)
 
         # Control penalty
         self.R = .1 * spa.eye(self.nu)
         ind07 = np.random.rand(self.nx) < 0.7   # Random 30% data
         # Choose only 70% of nonzero elements
-        diagQ = np.multiply(np.random.rand(self.nx), ind07)
+        diagQ = np.multiply(np.random.rand(self.nx), ind07) + 1e-06
         self.Q = spa.diags(diagQ)
-        QN = sla.solve_discrete_are(self.A.todense(), self.B.todense(),
-                                    self.Q.todense(), self.R.todense())
-        self.QN = spa.csc_matrix(QN.dot(QN.T))
-
-        # self.QN = spa.csc_matrix(QN.dot(QN))  # Ensure symmetric PSD
-        # self.QN = 10 * self.Q
+        
+        try:
+            QN = sla.solve_discrete_are(self.A.todense(), self.B.todense(),
+                                        self.Q.todense(), self.R.todense())
+            self.QN = spa.csc_matrix(QN.dot(QN.T))
+        except Exception:
+            # Fallback for when extreme sparsity makes the system uncontrollable
+            self.QN = 10 * self.Q
 
         # Input ad state bounds
         self.umin = - 1.0 * np.random.rand(self.nu)

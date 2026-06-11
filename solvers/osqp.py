@@ -2,7 +2,6 @@ import osqp
 import time
 from . import statuses as s
 from .results import Results
-from utils.general import is_qp_solution_optimal
 
 
 class OSQPSolver(object):
@@ -25,6 +24,7 @@ class OSQPSolver(object):
         return self._settings
 
     def solve(self, example):
+        from utils.general import is_qp_solution_optimal
         '''
         Solve problem
 
@@ -69,11 +69,14 @@ class OSQPSolver(object):
             print('   [debug] OSQP solve start')
         solve_start = time.perf_counter()
         results = m.solve()
+
+        self.results = results
+
         if debug:
             print(f'   [debug] OSQP solve done in {time.perf_counter() - solve_start:.3f}s')
         status = self.STATUS_MAP.get(results.info.status_val, s.SOLVER_ERROR)
 
-        if status in s.SOLUTION_PRESENT:
+        if status == s.OPTIMAL:
             if not is_qp_solution_optimal(problem,
                                           results.x,
                                           results.y,

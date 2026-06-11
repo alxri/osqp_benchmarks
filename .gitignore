@@ -1,5 +1,7 @@
 # Ignore results folder
 results/*
+results*/*
+dataset*/*
 
 # Add certain results
 !results/benchmark_problems/
